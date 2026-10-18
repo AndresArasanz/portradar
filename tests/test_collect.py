@@ -48,6 +48,17 @@ def test_extract_status_strips_markdown_links_code_and_html():
     assert extract_status(readme) == "See the notes and ISS_FLAG now."
 
 
+def test_extract_status_converts_table_rows_to_text():
+    readme = (
+        "## Status\n\n"
+        "| Área | Estado |\n|---|---|\n"
+        "| Boot, menu | ✅ Funciona |\n"
+        "| Áudio | ⚠️ Parcial |\n\n"
+    )
+
+    assert extract_status(readme) == "Boot, menu: ✅ Funciona · Áudio: ⚠️ Parcial"
+
+
 def test_extract_status_returns_none_without_section():
     assert extract_status("# Title\n\nJust a description.\n") is None
 

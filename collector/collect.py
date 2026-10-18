@@ -37,6 +37,19 @@ def _paragraph(lines, start):
     return out
 
 
+def _table_to_text(lines):
+    """Convierte una tabla markdown en 'celda1: celda2 · …' omitiendo cabecera y separador."""
+    rows = [[c.strip() for c in line.strip().strip("|").split("|")] for line in lines]
+    body = [r for r in rows[1:] if not all(re.fullmatch(r":?-+:?", c) for c in r if c)]
+    return " · ".join(": ".join(c for c in r if c) for r in body)
+
+
+def _paragraph_text(lines):
+    if lines and lines[0].startswith("|"):
+        return _clean(_table_to_text(lines))
+    return _clean(" ".join(lines))
+
+
 def extract_status(readme):
     """Extrae el párrafo de estado que publica el autor en su README, o None."""
     if not readme:
@@ -53,7 +66,7 @@ def extract_status(readme):
                 j += 1
             if j >= len(lines) or _HEADING.match(lines[j]):
                 return None
-            text = _clean(" ".join(_paragraph(lines, j)))
+            text = _paragraph_text(_paragraph(lines, j))
             return _truncate(text) if text else None
     return None
 

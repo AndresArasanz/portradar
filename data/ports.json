@@ -1,0 +1,148 @@
+{
+  "ports": [
+    {
+      "id": "bloodborne",
+      "game": "Bloodborne",
+      "repo": "Supermedo/bloodborne_pc",
+      "os": "Windows",
+      "status": "play",
+      "reach": "",
+      "note": "El que tienes instalado (launcher 1.9.6)"
+    },
+    {
+      "id": "bloodborne-linux",
+      "game": "Bloodborne (Linux)",
+      "repo": "deadinside28/bloodborne_pc",
+      "os": "Linux",
+      "status": "play",
+      "reach": "",
+      "note": "Versión Linux / Steam Deck"
+    },
+    {
+      "id": "god-of-war-3",
+      "game": "God of War III Remastered",
+      "repo": "FelipePrado0/gow3_pc",
+      "os": "Windows",
+      "status": "alpha",
+      "reach": "Entero",
+      "note": ""
+    },
+    {
+      "id": "pt",
+      "game": "P.T.",
+      "repo": "LoreanXavier/pt-pc",
+      "os": "Windows · Linux · macOS",
+      "status": "play",
+      "reach": "",
+      "note": "DirectX 12 y path tracing"
+    },
+    {
+      "id": "uncharted",
+      "game": "Uncharted: The Nathan Drake Collection",
+      "repo": "Supermedo/uncharted_pc",
+      "os": "Windows",
+      "status": "play",
+      "reach": "Los tres juegos",
+      "note": "60/120 fps"
+    },
+    {
+      "id": "shadow-of-the-colossus",
+      "game": "Shadow of the Colossus (2018)",
+      "repo": "AjncSystem/ShadowOfTheColossus-PC",
+      "os": "Windows",
+      "status": "early",
+      "reach": "",
+      "note": "Pide CUSA08809 EU v1.01 y módulos de audio de PS4"
+    },
+    {
+      "id": "infamous-second-son",
+      "game": "inFAMOUS Second Son",
+      "repo": "HayatoG/iss_pc",
+      "os": "Linux",
+      "status": "early",
+      "reach": "Primeros capítulos",
+      "note": "20–30 fps"
+    },
+    {
+      "id": "ctr-nitro-fueled",
+      "game": "Crash Team Racing Nitro-Fueled",
+      "repo": "GetLostIn/CTR-NitroFueled-PC",
+      "os": "Linux · Windows",
+      "status": "play",
+      "reach": "",
+      "note": "El repo citado originalmente (T3CHNOLOG1C/SacredFire) ya no existe; este es el más parecido, sin confirmar"
+    },
+    {
+      "id": "gran-turismo-sport",
+      "game": "Gran Turismo Sport",
+      "repo": "mlgprorektm8/RyGT",
+      "os": "Windows",
+      "status": "alpha",
+      "reach": "Carreras, sin online",
+      "note": "42–60 fps, instalación manual"
+    },
+    {
+      "id": "the-last-guardian",
+      "game": "The Last Guardian",
+      "repo": "HayatoG/tlg_pc",
+      "os": "Linux",
+      "status": "alpha",
+      "reach": "",
+      "note": "30 fps, builds diarias"
+    },
+    {
+      "id": "dragons-crown-pro",
+      "game": "Dragon's Crown Pro",
+      "repo": "saulob/dragons-crown-pro-pc",
+      "os": "Windows · Linux (exp.)",
+      "status": "play",
+      "reach": "",
+      "note": "Instala desde tu PKG"
+    },
+    {
+      "id": "ufc-3",
+      "game": "UFC 3",
+      "repo": "GNSB/UFC-3-PS4-PORT-LINUX-WINDOWS",
+      "os": "Windows · Linux",
+      "status": "play",
+      "reach": "",
+      "note": ""
+    },
+    {
+      "id": "gravity-rush-2",
+      "game": "Gravity Rush 2",
+      "repo": "HayatoG/gr2_pc",
+      "os": "Linux",
+      "status": "alpha",
+      "reach": "",
+      "note": "30 fps, builds diarias"
+    },
+    {
+      "id": "medievil",
+      "game": "MediEvil (2019)",
+      "repo": "bc160201983/medievil_2019_pc_port",
+      "os": "Windows",
+      "status": "play",
+      "reach": "",
+      "note": "60 fps; el repo cambió de nombre"
+    },
+    {
+      "id": "unicorn-overlord",
+      "game": "Unicorn Overlord",
+      "repo": "hachi23/unicorn_overlord_pc",
+      "os": "Windows · Linux",
+      "status": "early",
+      "reach": "Prólogo y capítulo 1",
+      "note": "Builds de prueba"
+    },
+    {
+      "id": "odin-sphere",
+      "game": "Odin Sphere Leifthrasir",
+      "repo": "hachi23/unicorn_overlord_pc",
+      "os": "Windows · Linux",
+      "status": "early",
+      "reach": "Sin build lista",
+      "note": "Rama odin-sphere del repo de Unicorn Overlord"
+    }
+  ]
+}

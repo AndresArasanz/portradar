@@ -1,0 +1,332 @@
+{
+  "candidates": {
+    "abdelmoumendeghbouche/wipeout_pc": {
+      "description": "WipEout Omega Collection (PS4) native PC port for Windows: original x86-64 code on the CPU, PS4 runtime, shadPS4 Vulkan video core. Early development. No game files included.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T15:10:18Z",
+      "repo": "AbdelmoumenDeghbouche/wipeout_pc",
+      "stars": 1,
+      "url": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc"
+    },
+    "alechurri/2ship2harkinian-ps4": {
+      "description": "Majora's Mask (2 Ship 2 Harkinian 5.0.1) native port for jailbroken PS4 — build scripts, patches, docs and releases",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-07T21:53:38Z",
+      "repo": "alechurri/2ship2harkinian-ps4",
+      "stars": 5,
+      "url": "https://github.com/alechurri/2ship2harkinian-ps4"
+    },
+    "alechurri/shipofharkinian-ps4": {
+      "description": "Experimental native PS4 port of Ship of Harkinian (Ocarina of Time PC port). No ROM or Sony binaries included.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-07T21:53:35Z",
+      "repo": "alechurri/shipofharkinian-ps4",
+      "stars": 8,
+      "url": "https://github.com/alechurri/shipofharkinian-ps4"
+    },
+    "alexarocas/mod-converter-pc-to-ps4-": {
+      "description": "A game-agnostic method, for AI assistants and people, to port data-only PC mods to a console that already runs homebrew. Proven once: Elden Ring → PS4 (worked example included).",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-17T09:04:48Z",
+      "repo": "alexarocas/Mod-converter-PC-to-PS4-",
+      "stars": 0,
+      "url": "https://github.com/alexarocas/Mod-converter-PC-to-PS4-"
+    },
+    "alonessam/bloodborne-w11-port": {
+      "description": "Native Windows 11/10 port & Vulkan 1.3 translation layer for Bloodborne (PS4) featuring NVIDIA DLSS, AMD FSR 4.1 Neural, and unlocked frame rates.            ",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-09T13:35:14Z",
+      "repo": "Alonessam/bloodborne-w11-port",
+      "stars": 0,
+      "url": "https://github.com/Alonessam/bloodborne-w11-port"
+    },
+    "astrr00/bloodbornepc": {
+      "description": "Native, open-source PC port of Bloodborne (PS4, v1.09 + The Old Hunters) for Windows and Linux.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-09T20:28:26Z",
+      "repo": "Astrr00/BloodbornePC",
+      "stars": 1,
+      "url": "https://github.com/Astrr00/BloodbornePC"
+    },
+    "azaihiryu/sumeragi_recomp": {
+      "description": "A Recomp Port for Sengoku Basara 4 Sumeragi for PC, ported from PS4 Version",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-14T08:40:41Z",
+      "repo": "azaihiryu/sumeragi_recomp",
+      "stars": 0,
+      "url": "https://github.com/azaihiryu/sumeragi_recomp"
+    },
+    "bgbrhrwatchinovo/dusklight-ps4": {
+      "description": "Native PS4 port of Dusklight (decomp PC port) – no emulator. Runs on GoldHEN at up to 60 FPS with PlayStation buttons, Wii U style HUD and optional HD textures. No game data or keys included: bring your own GameCube/Wii disc dump; the Setup Studio builds the PS4 package on your PC.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-11T12:43:14Z",
+      "repo": "BgbrhrWatchinOVO/dusklight-ps4",
+      "stars": 12,
+      "url": "https://github.com/BgbrhrWatchinOVO/dusklight-ps4"
+    },
+    "blacklineinteractive/driveclub-port": {
+      "description": "Driveclub PS4 PC Port",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T15:41:58Z",
+      "repo": "BlackLineInteractive/Driveclub-Port",
+      "stars": 78,
+      "url": "https://github.com/BlackLineInteractive/Driveclub-Port"
+    },
+    "bloodborne-native/bloodborne-recomp": {
+      "description": "A static recompiler for Bloodborne (PS4): turns your own copy of the game's code into native C. With bbcpu, an x86-64 interpreter and arm64 translator.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-13T14:10:46Z",
+      "repo": "bloodborne-native/bloodborne-recomp",
+      "stars": 5,
+      "url": "https://github.com/bloodborne-native/bloodborne-recomp"
+    },
+    "chanseyisthebest/peggle2-nx": {
+      "description": "Peggle 2 (Xbox Live Arcade) running natively on Nintendo Switch: static recompilation with ReXGlue and a native Vulkan renderer, with the PS4 Magical Masters content (Windy, Jimmy, their areas and costumes) and 1080p art",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-14T09:38:56Z",
+      "repo": "ChanseyIsTheBest/peggle2-nx",
+      "stars": 2,
+      "url": "https://github.com/ChanseyIsTheBest/peggle2-nx"
+    },
+    "drakenabarion/virtualon_pc": {
+      "description": "Cyber Troopers Virtual-On Masterpiece 1995-2001 (PS4) running natively on Linux. Built on the Uncharted and Bloodborne PC ports and the shadPS4 renderer. Bring your own dump.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T04:48:24Z",
+      "repo": "drakenabarion/virtualon_pc",
+      "stars": 0,
+      "url": "https://github.com/drakenabarion/virtualon_pc"
+    },
+    "francescograzioso/gr-port": {
+      "description": "Gravity Rush Remastered (PS4) running natively on Windows: Orbis HLE + GCN to SPIR-V/Vulkan translation layer",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T12:51:47Z",
+      "repo": "FrancescoGrazioso/gr-port",
+      "stars": 0,
+      "url": "https://github.com/FrancescoGrazioso/gr-port"
+    },
+    "gtggdd4mzb-source/bbport-cn-fix": {
+      "description": "bbport (Bloodborne native Windows port): CJK-locale startup fix + 4GB VRAM stable profile. Patch/config/docs only - no game files, no upstream binaries. GPL-2.0.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-07T15:27:31Z",
+      "repo": "gtggdd4mzb-source/bbport-cn-fix",
+      "stars": 0,
+      "url": "https://github.com/gtggdd4mzb-source/bbport-cn-fix"
+    },
+    "guichiapini/sotcport": {
+      "description": "Shadow of the Colossus (PS4, CUSA08809) running natively on Windows — fork of the Bloodborne PC port (bbport) runtime and its shadPS4-based Vulkan renderer",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-14T20:01:08Z",
+      "repo": "guichiapini/sotcport",
+      "stars": 3,
+      "url": "https://github.com/guichiapini/sotcport"
+    },
+    "guzuold/ctrnativeported": {
+      "description": "Native Windows runtime and progressive C++ engine reconstruction for Crash Team Racing Nitro-Fueled (PS4)",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T01:55:17Z",
+      "repo": "guzuold/CTRNativePorted",
+      "stars": 3,
+      "url": "https://github.com/guzuold/CTRNativePorted"
+    },
+    "heyzerr/shadowofthecolossus-pc": {
+      "description": "AVX2 FIX Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - Port nativo para PC.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-16T02:52:06Z",
+      "repo": "heyzerr/ShadowOfTheColossus-PC",
+      "stars": 4,
+      "url": "https://github.com/heyzerr/ShadowOfTheColossus-PC"
+    },
+    "igoraugustohh/the-order-1886-pc-port": {
+      "description": "The Order: 1886 rodando nativo no Windows 10/11: câmera cinematográfica original do PS4, NVIDIA DLSS, até 120 FPS, 23 idiomas e um launcher próprio.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-16T14:53:34Z",
+      "repo": "IgorAugustoHH/The-Order-1886-PC-Port",
+      "stars": 12,
+      "url": "https://github.com/IgorAugustoHH/The-Order-1886-PC-Port"
+    },
+    "ihaideez/smw": {
+      "description": "SMW: Super Mario Bros. Wonder Recomp on jailbroken PS4 (GoldHEN). Native static recomp, RADV Vulkan, FSR 1, L3+R3 quick menu, 4 players. Bring your own dump.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T18:06:30Z",
+      "repo": "iHaiDeeZ/SMW",
+      "stars": 5,
+      "url": "https://github.com/iHaiDeeZ/SMW"
+    },
+    "lxnis/order1886-pc": {
+      "description": "Experimental native Windows port of The Order: 1886 (PS4, CUSA00035 v01.02). Own game dump required, no game files included. GPL-2.0-or-later.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T17:16:16Z",
+      "repo": "lxnis/Order1886-PC",
+      "stars": 3,
+      "url": "https://github.com/lxnis/Order1886-PC"
+    },
+    "mafralp/lbp3-native-windows": {
+      "description": "Experimental research toward an unofficial native Windows port of LittleBigPlanet 3 (PS4). Not playable; no game files included.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-17T19:32:23Z",
+      "repo": "MafraLP/lbp3-native-windows",
+      "stars": 0,
+      "url": "https://github.com/MafraLP/lbp3-native-windows"
+    },
+    "manineteasylight/mnel-project-unleashed": {
+      "description": "MNEL Project Unleashed is a fan-made port of Sonic Unleashed (Xbox 360) for Jailbroken PS4. Fully recompiled, unofficial, and not for retail consoles. Based on hedge-dev's original recomp. Developed by Mani Mokhtarzadeh. Work in progress – no source or PKG files yet. Future PS5 support possible. Unauthorized copying is prohibited.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-09-18T12:12:24Z",
+      "repo": "ManiNetEasyLight/MNEL-Project-Unleashed",
+      "stars": 2,
+      "url": "https://github.com/ManiNetEasyLight/MNEL-Project-Unleashed"
+    },
+    "mariebohler80443324189/omniemu-universal-emulator-2026": {
+      "description": "OmniEmu Ultimate 2026 — Unified Cross-Platform Emulation & Virtualization Suite. Support for Android, iOS (Experimental), PS5/PS4/PS3, Nintendo Switch, and Retro Consoles. Features High-Performance JIT Recompilation, Vulkan API Rendering, and Integrated ISO/ROM Management Engine.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-04-21T11:19:14Z",
+      "repo": "mariebohler80443324189/OmniEmu-Universal-Emulator-2026",
+      "stars": 3,
+      "url": "https://github.com/mariebohler80443324189/OmniEmu-Universal-Emulator-2026"
+    },
+    "mohamed-moslem-allouch/god-of-war-3-remastered-pc-port-ps4-arabic-translation": {
+      "description": "تعريب كامل للعبة god of war 3 ps4",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-16T05:55:58Z",
+      "repo": "Mohamed-Moslem-Allouch/God-of-War-3-Remastered-Pc-Port-PS4-Arabic-Translation",
+      "stars": 7,
+      "url": "https://github.com/Mohamed-Moslem-Allouch/God-of-War-3-Remastered-Pc-Port-PS4-Arabic-Translation"
+    },
+    "nakaionyt/shadowofthecolossus-pc-framegen": {
+      "description": "Shadow of the Colossus (PS4) native PC port with DLSS-G / FSR 3 frame generation: 30 FPS locked, 60 shown. F7 uncaps live. Bring your own game files.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-17T17:08:26Z",
+      "repo": "nakaionyt/ShadowOfTheColossus-PC-FrameGen",
+      "stars": 10,
+      "url": "https://github.com/nakaionyt/ShadowOfTheColossus-PC-FrameGen"
+    },
+    "nichlasek/avp-ps4": {
+      "description": "Native Aliens versus Predator (1999) source port for PS4 / OpenOrbis. Bring your own game data.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T18:09:06Z",
+      "repo": "NichlasEk/AVP-PS4",
+      "stars": 0,
+      "url": "https://github.com/NichlasEk/AVP-PS4"
+    },
+    "overkilllabs3/driveclub-recomp": {
+      "description": "DriveClub (PS4, version 1.28) running natively on Windows",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T15:17:22Z",
+      "repo": "OverkillLabs3/driveclub-recomp",
+      "stars": 176,
+      "url": "https://github.com/OverkillLabs3/driveclub-recomp"
+    },
+    "parquepatricense/skate3-recomp-mods": {
+      "description": "Modular mod pack for skate3recomp with a Skate 3-style modder: PS3/PS4/PS5, Switch, Xbox Series and Steam Deck button icons, graphics presets, FOV/ultrawide, keyboard and mouse, Rioplatense Spanish and Brazilian Portuguese, and a direct load straight into your save in ~7 s. Requires skate3recomp v2.0.2 and your own copy of Skate 3.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-14T15:52:43Z",
+      "repo": "ParquePatricense/skate3-recomp-mods",
+      "stars": 0,
+      "url": "https://github.com/ParquePatricense/skate3-recomp-mods"
+    },
+    "porttaco/unofficial-stremio-ps4": {
+      "description": "Unofficial Stremio port for jailbroken PlayStation 4 consoles. Native PS4 app with account sign-in, addons, streaming, and playback support.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-07T23:47:21Z",
+      "repo": "porttaco/unofficial-stremio-ps4",
+      "stars": 0,
+      "url": "https://github.com/porttaco/unofficial-stremio-ps4"
+    },
+    "prathewsh/gravityrush_pc": {
+      "description": "Experimental native runtime for Gravity Rush Remastered and Gravity Rush 2 on Windows 10 and 11 built on the native bloodbourne PC port base by Supermedo and deadinside28",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-14T20:23:12Z",
+      "repo": "Prathewsh/gravityrush_pc",
+      "stars": 7,
+      "url": "https://github.com/Prathewsh/gravityrush_pc"
+    },
+    "quovix/asirn": {
+      "description": "ASIRN/ASIC — padrão de identificação (nome lógico legível + forma compacta com dígito verificador) para artefatos de recompilação/porte nativo. Spec + registry + codec de referência.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-10T19:20:26Z",
+      "repo": "quovix/asirn",
+      "stars": 0,
+      "url": "https://github.com/quovix/asirn"
+    },
+    "quovix/port-rmge01-ps4-from-wii": {
+      "description": "asi:AWGARQQAR:orbis:quovix/galaxy:recomp — artefato de recompilação (BYO-dump). Identidade pelo padrão ASIRN/ASIC; branch=método, tag=versão.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-16T13:58:11Z",
+      "repo": "quovix/port-RMGE01-ps4-from-wii",
+      "stars": 0,
+      "url": "https://github.com/quovix/port-RMGE01-ps4-from-wii"
+    },
+    "samuel-sslabs/port-integration": {
+      "description": "Buscador e catálogo unificado de ports nativos, decompilações e recompilações estáticas de consoles para PC (PS5, PS4, Switch, Xbox 360, N64 e clássicos), com rastreamento em tempo real de releases do GitHub.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T17:36:01Z",
+      "repo": "Samuel-SSLabs/Port-Integration",
+      "stars": 0,
+      "url": "https://github.com/Samuel-SSLabs/Port-Integration"
+    },
+    "schans-arg/nhl24-pc-port": {
+      "description": "Experimental PS4-to-PC port of NHL 24. Community source project; game files are not included.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-17T21:41:01Z",
+      "repo": "schans-arg/NHL24-PC-Port",
+      "stars": 1,
+      "url": "https://github.com/schans-arg/NHL24-PC-Port"
+    },
+    "schans-arg/ufc4-pc-port": {
+      "description": "Experimental PS4-to-PC port of EA SPORTS UFC 4. Community source project; game files are not included.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-17T21:39:58Z",
+      "repo": "schans-arg/UFC4-PC-Port",
+      "stars": 4,
+      "url": "https://github.com/schans-arg/UFC4-PC-Port"
+    },
+    "szdtkk/yakuza-kiwami-ptbr-ps4": {
+      "description": "Port simples da tradução PT-BR do Yakuza Kiwami (PC → PS4)",
+      "found_at": "2026-10-18",
+      "pushed_at": "2025-12-30T04:23:52Z",
+      "repo": "szdtkk/yakuza-kiwami-ptbr-ps4",
+      "stars": 0,
+      "url": "https://github.com/szdtkk/yakuza-kiwami-ptbr-ps4"
+    },
+    "thenikito/littlebigplanet-3---pc": {
+      "description": "Port nativo e não oficial de LittleBigPlanet 3 (PS4) para Windows, em andamento. Nenhum arquivo do jogo incluído.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T15:32:02Z",
+      "repo": "TheNIKITO/LittleBigPlanet-3---PC",
+      "stars": 0,
+      "url": "https://github.com/TheNIKITO/LittleBigPlanet-3---PC"
+    },
+    "vascon-es/lego-dimensions-pc": {
+      "description": "Unofficial native port of LEGO Dimensions (PS4) to Windows - requires your own dump of the game",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-17T18:58:50Z",
+      "repo": "vascon-es/lego-dimensions-pc",
+      "stars": 6,
+      "url": "https://github.com/vascon-es/lego-dimensions-pc"
+    },
+    "wie-project/ps4recomp": {
+      "description": "Experimental  macOS Apple Silicon first recompiler of PS4 programs",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T15:08:15Z",
+      "repo": "wie-project/PS4Recomp",
+      "stars": 14,
+      "url": "https://github.com/wie-project/PS4Recomp"
+    },
+    "wooloomooloo2/bloodborne_mac_port": {
+      "description": "Bloodborne on Apple Silicon Macs: the PS4 game's own code under Rosetta 2, rendered natively with Metal (MetalFX, FSR 3.1). Work in progress.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T17:21:35Z",
+      "repo": "Wooloomooloo2/bloodborne_mac_port",
+      "stars": 69,
+      "url": "https://github.com/Wooloomooloo2/bloodborne_mac_port"
+    },
+    "yerasuu/psport": {
+      "description": "psport is a fork of bloodborne_pc(bbport), the native Linux port of Bloodborne, taken past one game.",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T16:01:04Z",
+      "repo": "yerasuu/psport",
+      "stars": 1,
+      "url": "https://github.com/yerasuu/psport"
+    }
+  }
+}
