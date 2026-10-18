@@ -18,3 +18,4 @@ Este proyecto sigue el método del miniserver: `/home/miniserver/docs/metodo/MET
 - Estado Jugable/Alfa/Temprano y "hasta dónde llega" son manuales: no calcularlos ni inventar porcentajes.
 - Ser fork NO es señal de peligro (Bloodborne Windows, GoW3 y GT Sport son forks): etiqueta neutra "fork de X".
 - Tests: `.venv/bin/python -m pytest` (incluye E2E Playwright) y `npm test` (node, nvm en ~/.nvm).
+- El workflow diario hace commits en `main`: hacer siempre `git pull --rebase` antes de `git push` desde el miniserver.
