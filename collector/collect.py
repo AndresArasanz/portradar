@@ -87,6 +87,7 @@ def build_record(requested_repo, repo_json, releases, readme):
         "release_date": published[:10] or None,
         "status_text": extract_status(readme),
         "fork_of": (repo_json.get("parent") or {}).get("full_name"),
+        "repo_id": repo_json.get("id"),
     }
 
 
@@ -101,6 +102,8 @@ _EMPTY_RECORD = {
     "release_date": None,
     "status_text": None,
     "status_changed_at": None,
+    "repo_id": None,
+    "replaced": False,
 }
 
 
@@ -112,9 +115,18 @@ def merge_record(prev, new, today):
     if new is None:
         return {**_EMPTY_RECORD, **(prev or {}), "missing": True}
     if prev is None:
-        return {**new, "status_changed_at": None}
+        return {**new, "status_changed_at": None, "replaced": False}
     changed = any(prev.get(f) != new.get(f) for f in STATUS_CHANGE_FIELDS)
-    return {**new, "status_changed_at": today if changed else prev.get("status_changed_at")}
+    # Si el id numérico cambia, otro repo ocupa ahora ese nombre: se marca para siempre
+    # y se conserva el id original para no "normalizar" la sustitución al día siguiente.
+    prev_id = prev.get("repo_id")
+    swapped = prev_id is not None and new.get("repo_id") not in (None, prev_id)
+    return {
+        **new,
+        "status_changed_at": today if changed else prev.get("status_changed_at"),
+        "repo_id": prev_id if prev_id is not None else new.get("repo_id"),
+        "replaced": bool(prev.get("replaced")) or swapped,
+    }
 
 
 def filter_candidates(items, known, dismissed, previous, today):

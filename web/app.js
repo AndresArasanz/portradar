@@ -1,7 +1,7 @@
 // Interfaz: carga data/*.json, pinta pestañas y, con token, guarda cambios en el repo.
 import {
   acceptCandidate, buildRows, candidateList, dismissRepo, filterRows,
-  isRecent, relativeTime, sortRows, toggleFollow,
+  isRecent, relativeTime, removePort, setFollow, sortRows, undismissRepo,
 } from "./logic.js";
 import { createStore } from "./store.js";
 
@@ -72,6 +72,7 @@ function badges(row, now) {
   const list = [
     row.fork && [row.forkOf ? `fork de ${row.forkOf}` : "fork", ""],
     row.missing && ["no encontrado", "b-missing"],
+    row.replaced && ["repo sustituido: revisar antes de descargar", "b-missing"],
     row.archived && ["archivado", ""],
     row.renamedTo && [`renombrado → ${row.renamedTo}`, ""],
     isRecent(row.statusChangedAt, now, CHANGED_DAYS) && ["estado cambiado", "b-changed"],
@@ -161,16 +162,17 @@ function render() {
   else renderTable(rows, now);
 }
 
-async function withWrite(key, optimistic, write) {
-  const backup = { ports: state.ports, follows: state.follows, review: state.review };
+// Cambio optimista en pantalla + commit en el repo. Si falla se deshace solo este cambio
+// (no se restaura una copia del estado, que pisaría otros guardados en curso).
+async function withWrite(key, apply, revert, write) {
   state.busy.add(key);
-  optimistic();
+  apply();
   render();
   try {
     await write(createStore({ repo: REPO, token: state.token }));
     showError(null);
   } catch (err) {
-    Object.assign(state, backup);
+    revert();
     showError(`No se pudo guardar: ${err.message}`);
   } finally {
     state.busy.delete(key);
@@ -179,26 +181,25 @@ async function withWrite(key, optimistic, write) {
 }
 
 function onToggleFollow(row) {
-  withWrite(row.id,
-    () => { state.follows = { follows: toggleFollow(state.follows.follows, row.id) }; },
-    async store => {
-      const saved = await store.updateJson("data/follows.json",
-        d => ({ ...d, follows: toggleFollow(d.follows, row.id) }),
-        `${row.followed ? "Deja de seguir" : "Sigue"} ${row.game}`);
-      state.follows = saved;
-    });
+  const on = !row.followed;
+  const set = value => () => { state.follows = { ...state.follows, follows: setFollow(state.follows.follows, row.id, value) }; };
+  withWrite(row.id, set(on), set(!on), store => store.updateJson("data/follows.json",
+    d => ({ ...d, follows: setFollow(d.follows, row.id, on) }),
+    `${on ? "Sigue" : "Deja de seguir"} ${row.game}`));
 }
 
 function onAccept(c) {
   withWrite(c.repo,
     () => { state.ports = acceptCandidate(state.ports, c); },
-    async store => { state.ports = await store.updateJson("data/ports.json", d => acceptCandidate(d, c), `Acepta ${c.repo}`); });
+    () => { state.ports = removePort(state.ports, c.repo); },
+    store => store.updateJson("data/ports.json", d => acceptCandidate(d, c), `Acepta ${c.repo}`));
 }
 
 function onDismiss(c) {
   withWrite(c.repo,
     () => { state.review = dismissRepo(state.review, c.repo); },
-    async store => { state.review = await store.updateJson("data/review.json", d => dismissRepo(d, c.repo), `Descarta ${c.repo}`); });
+    () => { state.review = undismissRepo(state.review, c.repo); },
+    store => store.updateJson("data/review.json", d => dismissRepo(d, c.repo), `Descarta ${c.repo}`));
 }
 
 function setupTokenDialog() {
@@ -224,7 +225,7 @@ function setupTokenDialog() {
     const ok = await createStore({ repo: REPO, token }).checkToken().catch(() => false);
     $("token-save").disabled = false;
     if (!ok) {
-      $("token-error").textContent = "El token no es válido o no tiene acceso de escritura a este repositorio.";
+      $("token-error").textContent = "El token no es válido, no es fine-grained (github_pat_…) o no tiene acceso a este repositorio.";
       $("token-error").hidden = false;
       return;
     }

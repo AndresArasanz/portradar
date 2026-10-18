@@ -113,3 +113,20 @@ def test_search_returns_items_and_excludes_forks_in_query(calls):
     assert items == [{"full_name": "a/b"}]
     assert "fork%3Afalse" in recorded[0].full_url
     assert "ps4+pc+port" in recorded[0].full_url
+
+
+@pytest.mark.parametrize("exc", [TimeoutError("t"), ConnectionResetError("r"), github.http.client.IncompleteRead(b"")])
+def test_low_level_network_errors_raise_github_error(calls, exc):
+    _, responses = calls
+    responses.append(exc)
+
+    with pytest.raises(GitHubError):
+        GitHubClient().get_repo("a/b")
+
+
+def test_invalid_json_raises_github_error(calls):
+    _, responses = calls
+    responses.append(b"<html>no json</html>")
+
+    with pytest.raises(GitHubError):
+        GitHubClient().get_repo("a/b")

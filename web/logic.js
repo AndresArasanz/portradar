@@ -25,6 +25,7 @@ export function buildRows(ports, github, follows) {
       renamedTo: g.renamed_to ?? null,
       statusText: g.status_text ?? null,
       statusChangedAt: g.status_changed_at ?? null,
+      replaced: Boolean(g.replaced),
       followed: followed.has(p.id),
     };
   });
@@ -68,8 +69,10 @@ export function isRecent(dateStr, now, days) {
   return now - new Date(dateStr) <= days * DAY_MS;
 }
 
-export function toggleFollow(follows, id) {
-  return follows.includes(id) ? follows.filter(f => f !== id) : [...follows, id];
+// Acción fija (no alternar): repetirla, o aplicarla sobre una versión más nueva del fichero, es seguro.
+export function setFollow(follows, id, on) {
+  if (!on) return follows.filter(f => f !== id);
+  return follows.includes(id) ? follows : [...follows, id];
 }
 
 export function candidateList(candidates, ports, review) {
@@ -82,6 +85,14 @@ export function candidateList(candidates, ports, review) {
 export function dismissRepo(review, repo) {
   if (review.dismissed.some(r => lower(r) === lower(repo))) return review;
   return { ...review, dismissed: [...review.dismissed, repo] };
+}
+
+export function undismissRepo(review, repo) {
+  return { ...review, dismissed: review.dismissed.filter(r => lower(r) !== lower(repo)) };
+}
+
+export function removePort(portsData, repo) {
+  return { ...portsData, ports: portsData.ports.filter(p => lower(p.repo) !== lower(repo)) };
 }
 
 export function slugify(text) {
@@ -97,6 +108,6 @@ export function acceptCandidate(portsData, candidate) {
   const base = slugify(name);
   let id = base;
   for (let n = 2; ids.has(id); n += 1) id = `${base}-${n}`;
-  const port = { id, game: name, repo: candidate.repo, os: "", status: "early", reach: "", note: candidate.description || "" };
+  const port = { id, game: name, repo: candidate.repo, os: "", status: "early", reach: "", note: "" };
   return { ...portsData, ports: [...ports, port] };
 }

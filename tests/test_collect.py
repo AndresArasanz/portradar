@@ -91,6 +91,7 @@ REPO_JSON = {
     "pushed_at": "2026-10-18T11:00:14Z",
     "archived": False,
     "fork": False,
+    "id": 111,
 }
 
 
@@ -110,6 +111,7 @@ def test_build_record_maps_repo_and_latest_release():
         "release_date": "2026-10-17",
         "status_text": "playable. Ok.",
         "fork_of": None,
+        "repo_id": 111,
     }
 
 
@@ -239,3 +241,25 @@ def test_filter_candidates_drops_previous_candidates_now_dismissed_or_known():
     result = filter_candidates([], known={"f/acc"}, dismissed={"e/old"}, previous=previous, today="2026-10-18")
 
     assert result == {}
+
+
+def test_merge_record_flags_replaced_repo_and_keeps_original_id():
+    prev = {**_rec(), "status_changed_at": None, "replaced": False}
+
+    merged = merge_record(prev, {**_rec(), "repo_id": 999}, "2026-10-19")
+
+    assert merged["replaced"] is True
+    assert merged["repo_id"] == 111
+
+
+def test_merge_record_replaced_flag_is_sticky():
+    prev = {**_rec(), "status_changed_at": None, "replaced": True}
+
+    assert merge_record(prev, _rec(), "2026-10-20")["replaced"] is True
+
+
+def test_merge_record_not_replaced_when_same_id_or_no_history():
+    prev = {**_rec(), "status_changed_at": None}
+
+    assert merge_record(prev, _rec(), "2026-10-19")["replaced"] is False
+    assert merge_record(None, _rec(), "2026-10-19")["replaced"] is False

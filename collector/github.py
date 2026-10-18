@@ -1,4 +1,5 @@
 """Cliente mínimo de la API REST de GitHub (solo lectura, sin dependencias)."""
+import http.client
 import json
 import urllib.error
 import urllib.parse
@@ -32,10 +33,17 @@ class GitHubClient:
             raise GitHubError(f"{url}: HTTP {err.code}") from err
         except urllib.error.URLError as err:
             raise GitHubError(f"{url}: {err.reason}") from err
+        except (OSError, http.client.HTTPException) as err:
+            raise GitHubError(f"{url}: {type(err).__name__}") from err
 
     def _get_json(self, path, params=None):
         body = self._get(path, params)
-        return None if body is None else json.loads(body)
+        if body is None:
+            return None
+        try:
+            return json.loads(body)
+        except json.JSONDecodeError as err:
+            raise GitHubError(f"{path}: respuesta no es JSON") from err
 
     def get_repo(self, repo):
         return self._get_json(f"/repos/{repo}")

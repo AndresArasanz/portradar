@@ -31,8 +31,8 @@ class FakeClient:
         return self.search_items
 
 
-def repo_json(name, stars=10):
-    return {"full_name": name, "html_url": f"https://github.com/{name}", "stargazers_count": stars,
+def repo_json(name, stars=10, repo_id=1):
+    return {"id": repo_id, "full_name": name, "html_url": f"https://github.com/{name}", "stargazers_count": stars,
             "pushed_at": "2026-10-18T00:00:00Z", "archived": False, "fork": False}
 
 

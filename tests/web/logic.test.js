@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
   acceptCandidate, buildRows, candidateList, dismissRepo, filterRows,
-  isRecent, relativeTime, slugify, sortRows, toggleFollow,
+  isRecent, relativeTime, removePort, setFollow, slugify, sortRows, undismissRepo,
 } from "../../web/logic.js";
 
 const PORTS = [
@@ -81,14 +81,6 @@ test("isRecent within N days", () => {
   assert.equal(isRecent(null, NOW, 7), false);
 });
 
-test("toggleFollow returns a new list", () => {
-  const follows = ["a"];
-
-  assert.deepEqual(toggleFollow(follows, "b"), ["a", "b"]);
-  assert.deepEqual(toggleFollow(follows, "a"), []);
-  assert.deepEqual(follows, ["a"]);
-});
-
 test("candidateList hides known and dismissed repos and sorts by stars", () => {
   const candidates = { candidates: {
     "x/low": { repo: "x/low", stars: 1 }, "x/high": { repo: "x/high", stars: 50 },
@@ -123,7 +115,7 @@ test("acceptCandidate appends a new early-status port with a unique id", () => {
   assert.equal(result.ports.length, 2);
   assert.deepEqual(result.ports[1], {
     id: "driveclub-port-2", game: "Driveclub-Port", repo: "BlackLine/Driveclub-Port",
-    os: "", status: "early", reach: "", note: "Driveclub PS4 PC Port",
+    os: "", status: "early", reach: "", note: "",
   });
   assert.equal(ports.ports.length, 1);
 });
@@ -132,4 +124,28 @@ test("acceptCandidate ignores repos already present", () => {
   const ports = { ports: PORTS };
 
   assert.equal(acceptCandidate(ports, { repo: "SUPERMEDO/bloodborne_pc", description: "" }), ports);
+});
+
+test("setFollow is idempotent in both directions", () => {
+  assert.deepEqual(setFollow(["a"], "a", true), ["a"]);
+  assert.deepEqual(setFollow(["a"], "b", true), ["a", "b"]);
+  assert.deepEqual(setFollow(["a"], "a", false), []);
+  assert.deepEqual(setFollow([], "a", false), []);
+  const follows = ["a"];
+  setFollow(follows, "b", true);
+  assert.deepEqual(follows, ["a"]);
+});
+
+test("removePort and undismissRepo undo accept and dismiss", () => {
+  const ports = { ports: [PORTS[0]] };
+  const accepted = acceptCandidate(ports, { repo: "x/new", description: "" });
+
+  assert.deepEqual(removePort(accepted, "X/New"), ports);
+  assert.deepEqual(undismissRepo({ dismissed: ["a/b", "c/d"] }, "C/D"), { dismissed: ["a/b"] });
+});
+
+test("buildRows flags a replaced repo", () => {
+  const github = { repos: { "a/b": { ...GITHUB.repos["supermedo/bloodborne_pc"], replaced: true } } };
+
+  assert.equal(buildRows([{ ...PORTS[0], repo: "a/b" }], github, [])[0].replaced, true);
 });

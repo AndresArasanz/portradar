@@ -119,11 +119,12 @@ def test_fork_badge_names_the_parent(page, site_url):
 def test_follow_with_token_commits_follows_json(page, site_url):
     puts = []
     _fake_github(page, puts)
-    page.add_init_script("localStorage.setItem('portradar-token', 'fake-token')")
+    page.add_init_script("localStorage.setItem('portradar-token', 'github_pat_fake')")
     page.goto(site_url)
     page.get_by_role("tab", name="Todos").click()
 
-    page.get_by_role("button", name="Seguir P.T.").click()
+    with page.expect_request(lambda r: r.method == "PUT"):
+        page.get_by_role("button", name="Seguir P.T.").click()
 
     expect(page.get_by_role("button", name="Dejar de seguir P.T.")).to_be_enabled()
     url, body = puts[0]
@@ -135,13 +136,14 @@ def test_follow_with_token_commits_follows_json(page, site_url):
 def test_dismiss_candidate_commits_review_json(page, site_url):
     puts = []
     _fake_github(page, puts)
-    page.add_init_script("localStorage.setItem('portradar-token', 'fake-token')")
+    page.add_init_script("localStorage.setItem('portradar-token', 'github_pat_fake')")
     page.goto(site_url)
     page.get_by_role("tab", name="Sin revisar").click()
     first = page.locator(".card").first
     repo = first.get_attribute("data-repo")
 
-    first.get_by_role("button", name="Descartar").click()
+    with page.expect_request(lambda r: r.method == "PUT"):
+        first.get_by_role("button", name="Descartar").click()
 
     expect(page.locator(f'.card[data-repo="{repo}"]')).to_have_count(0)
     url, body = puts[0]
@@ -152,7 +154,7 @@ def test_dismiss_candidate_commits_review_json(page, site_url):
 def test_failed_write_reverts_and_shows_error(page, site_url):
     page.route(f"{REPO_API}/contents/**", lambda r: r.fulfill(status=403, json={"message": "nope"})
                if r.request.method == "PUT" else r.fulfill(status=200, json=_contents(r.request.url.split("/contents/data/")[1].split("?")[0])))
-    page.add_init_script("localStorage.setItem('portradar-token', 'fake-token')")
+    page.add_init_script("localStorage.setItem('portradar-token', 'github_pat_fake')")
     page.goto(site_url)
     page.get_by_role("tab", name="Todos").click()
 
@@ -160,3 +162,32 @@ def test_failed_write_reverts_and_shows_error(page, site_url):
 
     expect(page.locator("#error")).to_contain_text("403")
     expect(page.get_by_role("button", name="Seguir P.T.")).to_be_visible()
+
+
+def test_failed_write_only_reverts_its_own_change(page, site_url):
+    def handle(route):
+        req = route.request
+        if req.method == "PUT":
+            follows = json.loads(base64.b64decode(json.loads(req.post_data)["content"]))["follows"]
+            ok = "uncharted" in follows
+            return route.fulfill(status=200 if ok else 403, json={} if ok else {"message": "nope"})
+        return route.fulfill(status=200, json=_contents(req.url.split("/contents/data/")[1].split("?")[0]))
+
+    page.route(f"{REPO_API}/contents/**", handle)
+    page.add_init_script("localStorage.setItem('portradar-token', 'github_pat_fake')")
+    page.goto(site_url)
+    page.get_by_role("tab", name="Todos").click()
+
+    page.get_by_role("button", name="Seguir P.T.").click()
+    page.get_by_role("button", name="Seguir Uncharted: The Nathan Drake Collection").click()
+
+    expect(page.locator("#error")).to_contain_text("403")
+    expect(page.get_by_role("button", name="Seguir P.T.")).to_be_visible()
+    expect(page.get_by_role("button", name="Dejar de seguir Uncharted: The Nathan Drake Collection")).to_be_visible()
+
+
+def test_csp_allows_the_page_to_work(page, site_url):
+    page.goto(site_url)
+
+    expect(page.locator("#rows tr").first).to_be_visible()
+    assert not [e for e in page.errors if "Content Security Policy" in e]

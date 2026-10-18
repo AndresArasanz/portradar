@@ -50,12 +50,24 @@ test("updateJson reads fresh, applies the change and PUTs with sha", async () =>
   assert.ok(decodeBase64(body.content).endsWith("\n"));
 });
 
-test("updateJson retries once on sha conflict", async () => {
+test("updateJson gives up after three conflicts", async () => {
+  const fetch = fakeFetch([
+    file({ follows: [] }, "s1"), { status: 409, body: {} },
+    file({ follows: [] }, "s1"), { status: 409, body: {} },
+    file({ follows: [] }, "s1"), { status: 409, body: { message: "conflict" } },
+  ]);
+  const store = createStore({ repo: "o/r", token: "tkn", fetch, wait: async () => {} });
+
+  await assert.rejects(store.updateJson("data/follows.json", d => d, "m"), /409/);
+  assert.equal(fetch.calls.length, 6);
+});
+
+test("updateJson retries on sha conflict", async () => {
   const fetch = fakeFetch([
     file({ follows: [] }, "s1"), { status: 409, body: {} },
     file({ follows: ["y"] }, "s2"), { status: 200, body: {} },
   ]);
-  const store = createStore({ repo: "o/r", token: "tkn", fetch });
+  const store = createStore({ repo: "o/r", token: "tkn", fetch, wait: async () => {} });
 
   const data = await store.updateJson("data/follows.json", d => ({ follows: [...d.follows, "x"] }), "m");
 
@@ -77,11 +89,18 @@ test("readJson throws on HTTP errors", async () => {
 });
 
 test("checkToken reports whether the token can push", async () => {
-  const ok = createStore({ repo: "o/r", token: "t", fetch: fakeFetch([{ status: 200, body: { permissions: { push: true } } }]) });
-  const ro = createStore({ repo: "o/r", token: "t", fetch: fakeFetch([{ status: 200, body: { permissions: { push: false } } }]) });
-  const bad = createStore({ repo: "o/r", token: "t", fetch: fakeFetch([{ status: 401, body: {} }]) });
+  const ok = createStore({ repo: "o/r", token: "github_pat_x", fetch: fakeFetch([{ status: 200, body: { permissions: { push: true } } }]) });
+  const ro = createStore({ repo: "o/r", token: "github_pat_x", fetch: fakeFetch([{ status: 200, body: { permissions: { push: false } } }]) });
+  const bad = createStore({ repo: "o/r", token: "github_pat_x", fetch: fakeFetch([{ status: 401, body: {} }]) });
 
   assert.equal(await ok.checkToken(), true);
   assert.equal(await ro.checkToken(), false);
   assert.equal(await bad.checkToken(), false);
+});
+
+test("checkToken rejects classic or OAuth tokens without calling the API", async () => {
+  const fetch = fakeFetch([]);
+
+  assert.equal(await createStore({ repo: "o/r", token: "ghp_classic", fetch }).checkToken(), false);
+  assert.equal(fetch.calls.length, 0);
 });

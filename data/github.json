@@ -9,6 +9,8 @@
       "release_date": "2026-10-14",
       "release_tag": "v0.57",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1415622546,
       "stars": 1049,
       "status_changed_at": null,
       "status_text": null
@@ -22,6 +24,8 @@
       "release_date": "2026-10-16",
       "release_tag": "v1.3.2",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1416121528,
       "stars": 42,
       "status_changed_at": null,
       "status_text": null
@@ -35,7 +39,9 @@
       "release_date": "2026-10-15",
       "release_tag": "0.6-pre1",
       "renamed_to": null,
-      "stars": 3230,
+      "replaced": false,
+      "repo_id": 1399236672,
+      "stars": 3232,
       "status_changed_at": null,
       "status_text": "experimental, playable. The game boots, loads saves and plays (the Hunter's Dream and several areas of Yharnam were played with it) with sound, gamepad and saving. A full play-through has not been verified, and only one machine (Linux, AMD Radeon RX 7800 XT, Mesa/RADV) has been…"
     },
@@ -48,7 +54,9 @@
       "release_date": "2026-10-18",
       "release_tag": "windows-v2.5.0",
       "renamed_to": null,
-      "stars": 3337,
+      "replaced": false,
+      "repo_id": 1409580064,
+      "stars": 3338,
       "status_changed_at": null,
       "status_text": null
     },
@@ -61,6 +69,8 @@
       "release_date": "2026-10-13",
       "release_tag": "v0.3",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1415782260,
       "stars": 466,
       "status_changed_at": null,
       "status_text": "playable. Menus, Adventure and Arcade, races, sound, cutscenes, Xbox/SDL controllers and keyboard, saving, the community patches (60 FPS, no motion blur), restart from the in-game menu, and the game's DLC from your own packages (optional). Internal resolution from 480p to…"
@@ -74,6 +84,8 @@
       "release_date": "2026-10-17",
       "release_tag": "ufc3-v0.1.6",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1419442607,
       "stars": 97,
       "status_changed_at": null,
       "status_text": "Current release: 0.1.5 (notes). What's new: write windows on Windows again (a Career fight on an RTX 3060 laptop goes from about 30 to 60–70 FPS), blood and sweat on hits are back, a fixed GPU hang in the Career fighter editor, a possible fix for AMD freezes, new Windows and…"
@@ -87,6 +99,8 @@
       "release_date": "2026-10-18",
       "release_tag": "latest",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1416842013,
       "stars": 3,
       "status_changed_at": null,
       "status_text": null
@@ -100,6 +114,8 @@
       "release_date": "2026-10-17",
       "release_tag": "v2026.10.17-fd637d0",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1417228030,
       "stars": 49,
       "status_changed_at": null,
       "status_text": "Boot, abertura com créditos e legendas: ✅ Funciona · Título, menu e gameplay: ✅ 30 FPS, 1080p nativo · Áudio: ✅ Com o libSceNgs2.sprx do firmware do seu console + Audio3d reimplementado · Idioma: ✅ Escolhido no launcher (legendas e menus em português testados) · Controle: ✅…"
@@ -113,7 +129,9 @@
       "release_date": "2026-10-18",
       "release_tag": "v2026.10.18-27f8bba",
       "renamed_to": null,
-      "stars": 567,
+      "replaced": false,
+      "repo_id": 1418054191,
+      "stars": 568,
       "status_changed_at": null,
       "status_text": "Boot, título, intro e gameplay: ✅ Funciona; testado até \"Go to Longhouse\", com escalada, corrida, poderes e cutscenes · Sensor de movimento (grafite, pedidos de movimento): ✅ Giroscópio real ou simulado em qualquer controle e no teclado · Fumaça do dreno, drones e partículas da…"
     },
@@ -126,7 +144,9 @@
       "release_date": "2026-10-17",
       "release_tag": "v2026.10.17-b8d5f41",
       "renamed_to": null,
-      "stars": 260,
+      "replaced": false,
+      "repo_id": 1416366647,
+      "stars": 261,
       "status_changed_at": null,
       "status_text": "Boot, menu, intro e gameplay: ✅ Funciona; sessões de 10+ minutos sem falhas · Imagem: ✅ Nativa, 1080p, sem tremores; SMAA, RCAS/CAS e ajustes de cor opcionais · Áudio: ✅ Com o libSceNgs2.sprx do firmware do seu console · Controle: ✅ DualSense, DualShock 4, Xbox e 8BitDo via…"
     },
@@ -139,6 +159,8 @@
       "release_date": "2026-10-16",
       "release_tag": "v1.0.5",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1408557215,
       "stars": 1943,
       "status_changed_at": null,
       "status_text": null
@@ -152,6 +174,8 @@
       "release_date": "2026-10-18",
       "release_tag": "gt-sport-2026-10-18",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1413598637,
       "stars": 368,
       "status_changed_at": null,
       "status_text": "Boot, menus, car and track selection: Working · Races: Working, about 42-60 fps depending on how many cars are on screen · Race summary and results: Working · Audio: Working · Controllers: Working through SDL · Online features: Not supported"
@@ -165,6 +189,8 @@
       "release_date": "2026-10-17",
       "release_tag": "v0.6.0",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1418803345,
       "stars": 120,
       "status_changed_at": null,
       "status_text": null
@@ -178,6 +204,8 @@
       "release_date": "2026-10-17",
       "release_tag": "windows-v1.9.1",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1407727187,
       "stars": 3711,
       "status_changed_at": null,
       "status_text": null
@@ -191,10 +219,12 @@
       "release_date": "2026-10-17",
       "release_tag": "v0.3.6",
       "renamed_to": null,
+      "replaced": false,
+      "repo_id": 1419982962,
       "stars": 1410,
       "status_changed_at": null,
       "status_text": null
     }
   },
-  "updated_at": "2026-10-18T18:15:07Z"
+  "updated_at": "2026-10-18T18:22:07Z"
 }
