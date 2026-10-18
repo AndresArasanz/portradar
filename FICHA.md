@@ -23,7 +23,7 @@ repos nuevos para revisarlos a mano. Permite marcar qué juegos sigo.
 - Detección de repos nuevos con varias búsquedas en la API de GitHub (`ps4 pc port`, `ps4 recomp`, `native pc port ps4`…), excluyendo forks y repos ya conocidos o descartados; entran como **"nuevo, sin revisar"**.
 - Seguir / dejar de seguir y Aceptar / Descartar repos nuevos desde la web: se guardan en el repo (`data/follows.json`, `data/review.json`) mediante la API de GitHub con un token *fine-grained* (solo este repo, solo Contents) que se pega una vez por navegador. Ver ADR-003.
 - Sin token en el navegador la web funciona en modo solo lectura.
-- Aviso de seguridad visible: descargar solo desde la pestaña Releases del repo original, nunca de forks con `.exe`. Los repos que sean fork llevan una etiqueta "fork" automática.
+- Aviso de seguridad visible: descargar solo desde la pestaña Releases del repo original, nunca de forks con `.exe`. Los repos que sean fork llevan una etiqueta neutra "fork de <repo origen>" (ser fork no implica peligro: Bloodborne Windows, God of War III y Gran Turismo son forks).
 - Tema claro/oscuro y usable en móvil (diseño de la versión de prueba).
 
 ## Fuera de alcance
@@ -46,7 +46,7 @@ repos nuevos para revisarlos a mano. Permite marcar qué juegos sigo.
 - [ ] Los repos con sección de estado en el README (p. ej. CTR, UFC 3, Unicorn Overlord) muestran su extracto; los que no tienen, no muestran nada.
 - [ ] Si el extracto cambia entre dos ejecuciones, la fila aparece marcada como "estado cambiado".
 - [ ] Un repo que devuelve 404 o está archivado se marca como tal en la tabla en vez de romper el workflow.
-- [ ] El aviso de seguridad está visible sin hacer scroll en Todos, y los forks llevan la etiqueta "fork".
+- [ ] El aviso de seguridad está visible sin hacer scroll en Todos, y los forks llevan la etiqueta "fork de <origen>".
 - [ ] Ningún token ni secreto en el repo (comprobado con `git grep` y con el historial).
 
 ## Tests que deben pasar

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PortRadar</title>
+  <meta name="description" content="Ports nativos no oficiales de PS4 a PC publicados en GitHub, actualizados a diario.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%238e1f2c' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%238e1f2c'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="topline">
+        <span class="eyebrow">Ports nativos no oficiales · PS4 → PC</span>
+        <button class="linkbtn" id="token-btn" type="button">Conectar</button>
+      </div>
+      <h1>PortRadar</h1>
+      <p class="lead">Los ports nativos de PS4 a PC que se publican en GitHub, con los datos sacados de cada repositorio: versión, fecha, actividad y lo que dice su autor. Todos piden tu propio volcado del juego.</p>
+      <p class="snap" id="snap">Cargando datos…</p>
+    </header>
+
+    <aside class="warnbox" id="warning">
+      <p><strong>Antes de descargar nada.</strong> Baja solo desde la pestaña Releases de los repositorios de esta tabla. Las copias con pocas estrellas que ofrecen un .exe son las que suelen llevar malware. Si un port es fork de otro repo se indica con <span class="badge">fork de …</span> para que lo compares: algunos forks son el port bueno.</p>
+    </aside>
+
+    <p class="error" id="error" role="alert" hidden></p>
+
+    <section class="main">
+      <nav class="tabs" role="tablist">
+        <button role="tab" class="tab" data-tab="following" aria-selected="true">Siguiendo <span class="count" id="count-following"></span></button>
+        <button role="tab" class="tab" data-tab="all" aria-selected="false">Todos <span class="count" id="count-all"></span></button>
+        <button role="tab" class="tab" data-tab="review" aria-selected="false">Sin revisar <span class="count" id="count-review"></span></button>
+      </nav>
+
+      <div id="panel-table">
+        <label class="visually-hidden" for="q">Buscar juego o autor</label>
+        <input id="q" type="search" placeholder="Buscar juego o autor…">
+        <div class="tablebox">
+          <table>
+            <thead><tr>
+              <th data-k="game">Juego</th>
+              <th data-k="os">Sistema</th>
+              <th data-k="status">Estado</th>
+              <th data-k="releaseTag">Última versión</th>
+              <th data-k="releaseDate">Publicada</th>
+              <th data-k="stars">Estrellas</th>
+              <th data-k="pushedAt" data-sort-dir="↓">Último cambio</th>
+              <th class="follow-col"><span class="visually-hidden">Seguir</span></th>
+            </tr></thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <div class="legend">
+          <span><span class="pill s-play">Jugable</span> se puede pasar o casi</span>
+          <span><span class="pill s-alpha">Alfa</span> jugable con fallos serios</span>
+          <span><span class="pill s-early">Temprano</span> solo partes o sin build lista</span>
+          <span><span class="badge b-changed">estado cambiado</span> el autor cambió su Status en los últimos 7 días</span>
+        </div>
+      </div>
+
+      <div id="panel-review" hidden>
+        <p class="lead small">Repos encontrados por la búsqueda diaria que aún no están en la lista. Revisa que sea el original antes de aceptarlo; lo que descartes no volverá a aparecer.</p>
+        <p class="empty" id="review-hint" hidden>Conecta tu token (arriba) para aceptar o descartar.</p>
+        <ul class="cards" id="candidates"></ul>
+      </div>
+    </section>
+  </div>
+
+  <dialog id="token-dialog">
+    <form method="dialog" id="token-form">
+      <h2>Conectar con GitHub</h2>
+      <p>Para seguir juegos y revisar repos nuevos, la web guarda los cambios en el repositorio. Necesita un token <em>fine-grained</em> limitado a <code>AndresArasanz/portradar</code> con permiso <strong>Contents: Read and write</strong>. Se guarda solo en este navegador.</p>
+      <p><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Crear token en GitHub</a></p>
+      <label for="token-input">Token</label>
+      <input id="token-input" type="password" autocomplete="off" spellcheck="false">
+      <p class="error" id="token-error" hidden></p>
+      <div class="actions">
+        <button type="button" class="chip" id="token-forget">Olvidar token</button>
+        <button type="button" class="chip" value="cancel" id="token-cancel">Cancelar</button>
+        <button type="submit" class="chip primary" id="token-save">Guardar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -86,6 +86,7 @@ def build_record(requested_repo, repo_json, releases, readme):
         "release_tag": latest["tag_name"] if latest else None,
         "release_date": published[:10] or None,
         "status_text": extract_status(readme),
+        "fork_of": (repo_json.get("parent") or {}).get("full_name"),
     }
 
 
@@ -94,6 +95,7 @@ _EMPTY_RECORD = {
     "pushed_at": None,
     "archived": False,
     "fork": False,
+    "fork_of": None,
     "renamed_to": None,
     "release_tag": None,
     "release_date": None,

@@ -28,6 +28,16 @@ test("buildRows merges manual and automatic data and marks follows", () => {
   assert.equal(rows[1].followed, true);
   assert.equal(rows[1].stars, null);
   assert.equal(rows[1].missing, false);
+  assert.equal(rows[0].forkOf, null);
+});
+
+test("buildRows exposes the fork parent", () => {
+  const github = { repos: { "a/b": { ...GITHUB.repos["supermedo/bloodborne_pc"], fork: true, fork_of: "c/origin" } } };
+
+  const [row] = buildRows([{ ...PORTS[0], repo: "a/b" }], github, []);
+
+  assert.equal(row.fork, true);
+  assert.equal(row.forkOf, "c/origin");
 });
 
 test("buildRows points the link to the renamed repo", () => {

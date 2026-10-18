@@ -3,6 +3,7 @@
     "ajncsystem/shadowofthecolossus-pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-17T01:41:22Z",
       "release_date": "2026-10-14",
@@ -15,6 +16,7 @@
     "bc160201983/medievil_2019_pc_port": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-16T18:20:26Z",
       "release_date": "2026-10-16",
@@ -27,6 +29,7 @@
     "deadinside28/bloodborne_pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-15T09:18:37Z",
       "release_date": "2026-10-15",
@@ -39,18 +42,20 @@
     "felipeprado0/gow3_pc": {
       "archived": false,
       "fork": true,
+      "fork_of": "Supermedo/bloodborne_pc",
       "missing": false,
       "pushed_at": "2026-10-18T06:10:14Z",
       "release_date": "2026-10-18",
       "release_tag": "windows-v2.5.0",
       "renamed_to": null,
-      "stars": 3335,
+      "stars": 3337,
       "status_changed_at": null,
       "status_text": null
     },
     "getlostin/ctr-nitrofueled-pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-13T23:08:57Z",
       "release_date": "2026-10-13",
@@ -63,6 +68,7 @@
     "gnsb/ufc-3-ps4-port-linux-windows": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-17T17:03:11Z",
       "release_date": "2026-10-17",
@@ -75,6 +81,7 @@
     "hachi23/unicorn_overlord_pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-18T11:14:51Z",
       "release_date": "2026-10-18",
@@ -87,6 +94,7 @@
     "hayatog/gr2_pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-17T15:35:22Z",
       "release_date": "2026-10-17",
@@ -99,42 +107,46 @@
     "hayatog/iss_pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-18T16:27:24Z",
       "release_date": "2026-10-18",
       "release_tag": "v2026.10.18-27f8bba",
       "renamed_to": null,
-      "stars": 566,
+      "stars": 567,
       "status_changed_at": null,
       "status_text": "Boot, título, intro e gameplay: ✅ Funciona; testado até \"Go to Longhouse\", com escalada, corrida, poderes e cutscenes · Sensor de movimento (grafite, pedidos de movimento): ✅ Giroscópio real ou simulado em qualquer controle e no teclado · Fumaça do dreno, drones e partículas da…"
     },
     "hayatog/tlg_pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-17T15:12:31Z",
       "release_date": "2026-10-17",
       "release_tag": "v2026.10.17-b8d5f41",
       "renamed_to": null,
-      "stars": 259,
+      "stars": 260,
       "status_changed_at": null,
       "status_text": "Boot, menu, intro e gameplay: ✅ Funciona; sessões de 10+ minutos sem falhas · Imagem: ✅ Nativa, 1080p, sem tremores; SMAA, RCAS/CAS e ajustes de cor opcionais · Áudio: ✅ Com o libSceNgs2.sprx do firmware do seu console · Controle: ✅ DualSense, DualShock 4, Xbox e 8BitDo via…"
     },
     "loreanxavier/pt-pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-16T01:12:11Z",
       "release_date": "2026-10-16",
       "release_tag": "v1.0.5",
       "renamed_to": null,
-      "stars": 1942,
+      "stars": 1943,
       "status_changed_at": null,
       "status_text": null
     },
     "mlgprorektm8/rygt": {
       "archived": false,
       "fork": true,
+      "fork_of": "aarvsn/Ryty",
       "missing": false,
       "pushed_at": "2026-10-18T13:24:27Z",
       "release_date": "2026-10-18",
@@ -147,6 +159,7 @@
     "saulob/dragons-crown-pro-pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-17T21:37:21Z",
       "release_date": "2026-10-17",
@@ -159,6 +172,7 @@
     "supermedo/bloodborne_pc": {
       "archived": false,
       "fork": true,
+      "fork_of": "deadinside28/bloodborne_pc",
       "missing": false,
       "pushed_at": "2026-10-18T11:00:14Z",
       "release_date": "2026-10-17",
@@ -171,6 +185,7 @@
     "supermedo/uncharted_pc": {
       "archived": false,
       "fork": false,
+      "fork_of": null,
       "missing": false,
       "pushed_at": "2026-10-17T23:37:21Z",
       "release_date": "2026-10-17",
@@ -181,5 +196,5 @@
       "status_text": null
     }
   },
-  "updated_at": "2026-10-18T18:09:49Z"
+  "updated_at": "2026-10-18T18:15:07Z"
 }

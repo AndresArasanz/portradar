@@ -109,6 +109,7 @@ def test_build_record_maps_repo_and_latest_release():
         "release_tag": "windows-v1.9.1",
         "release_date": "2026-10-17",
         "status_text": "playable. Ok.",
+        "fork_of": None,
     }
 
 
@@ -127,11 +128,14 @@ def test_build_record_detects_rename_case_insensitively():
     assert build_record("SUPERMEDO/Bloodborne_PC", REPO_JSON, [], None)["renamed_to"] is None
 
 
-def test_build_record_flags_archived_and_fork():
-    record = build_record("a/b", {**REPO_JSON, "full_name": "a/b", "archived": True, "fork": True}, [], None)
+def test_build_record_flags_archived_and_fork_with_parent():
+    repo = {**REPO_JSON, "full_name": "a/b", "archived": True, "fork": True, "parent": {"full_name": "c/origin"}}
+
+    record = build_record("a/b", repo, [], None)
 
     assert record["archived"] is True
     assert record["fork"] is True
+    assert record["fork_of"] == "c/origin"
 
 
 # --- merge_record ---------------------------------------------------------

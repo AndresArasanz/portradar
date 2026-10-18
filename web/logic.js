@@ -20,6 +20,7 @@ export function buildRows(ports, github, follows) {
       releaseDate: g.release_date ?? null,
       archived: Boolean(g.archived),
       fork: Boolean(g.fork),
+      forkOf: g.fork_of ?? null,
       missing: Boolean(g.missing),
       renamedTo: g.renamed_to ?? null,
       statusText: g.status_text ?? null,
