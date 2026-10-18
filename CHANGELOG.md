@@ -11,3 +11,4 @@ Qué hace el proyecto en cada momento, en lenguaje normal (no técnico).
 - Búsqueda diaria de repos nuevos; aparecen en "Sin revisar" para aceptarlos o descartarlos.
 - Web con pestañas Siguiendo / Todos / Sin revisar y aviso de seguridad sobre descargas.
 - Ser fork no se marca como peligro: varios ports buenos son forks de otro.
+- La cabecera muestra cuándo se comprobó GitHub por última vez (y, aparte, cuándo cambiaron los datos), sin hacer commits diarios vacíos.

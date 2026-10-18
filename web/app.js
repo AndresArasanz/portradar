@@ -1,11 +1,12 @@
 // Interfaz: carga data/*.json, pinta pestañas y, con token, guarda cambios en el repo.
 import {
   acceptCandidate, buildRows, candidateList, dismissRepo, filterRows,
-  isRecent, relativeTime, removePort, setFollow, sortRows, undismissRepo,
+  isRecent, lastCheckFromRuns, relativeTime, removePort, snapLabel, setFollow, sortRows, undismissRepo,
 } from "./logic.js";
 import { createStore } from "./store.js";
 
 const REPO = "AndresArasanz/portradar";
+const RUNS_URL = `https://api.github.com/repos/${REPO}/actions/workflows/update.yml/runs?status=success&per_page=1`;
 const TOKEN_KEY = "portradar-token";
 const TAB_KEY = "portradar-tab";
 const STALE_HOURS = 48;
@@ -17,7 +18,7 @@ const state = {
   ports: { ports: [] }, github: { repos: {} }, candidates: { candidates: {} },
   follows: { follows: [] }, review: { dismissed: [] },
   tab: storageGet(TAB_KEY) || "following", query: "", sortKey: "pushedAt", sortDir: -1,
-  token: storageGet(TOKEN_KEY), busy: new Set(),
+  token: storageGet(TOKEN_KEY), busy: new Set(), checkedAt: null,
 };
 
 function storageGet(key) {
@@ -54,6 +55,17 @@ async function load() {
     ["ports", "github", "candidates", "follows", "review"].map(n => fetchJson(`data/${n}.json`)));
   Object.assign(state, { ports, github, candidates, follows, review });
   if (state.token) await loadFresh();
+  loadLastCheck();
+}
+
+// Hora de la última ejecución correcta del workflow diario (pública, sin token). No bloquea la carga.
+async function loadLastCheck() {
+  try {
+    const res = await fetch(RUNS_URL, { headers: { Accept: "application/vnd.github+json" } });
+    if (!res.ok) return;
+    state.checkedAt = lastCheckFromRuns(await res.json());
+    render();
+  } catch { /* sin red o límite de API: se queda la fecha del último cambio */ }
 }
 
 // Con token se leen del repo los ficheros que cambia la web, para no ver una versión antigua de Pages.
@@ -156,8 +168,9 @@ function render() {
   $("panel-table").hidden = state.tab === "review";
   $("panel-review").hidden = state.tab !== "review";
   $("token-btn").textContent = state.token ? "Conectado ✓" : "Conectar";
-  const updated = state.github.updated_at;
-  $("snap").textContent = updated ? `Datos de GitHub actualizados ${relativeTime(updated, now)} (${new Date(updated).toLocaleString("es-ES")})` : "";
+  const shown = state.checkedAt || state.github.updated_at;
+  const label = snapLabel(state.checkedAt, state.github.updated_at, now);
+  $("snap").textContent = label && `${label} (${new Date(shown).toLocaleString("es-ES")})`;
   if (state.tab === "review") renderCandidates(candidates);
   else renderTable(rows, now);
 }

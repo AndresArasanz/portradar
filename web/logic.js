@@ -111,3 +111,16 @@ export function acceptCandidate(portsData, candidate) {
   const port = { id, game: name, repo: candidate.repo, os: "", status: "early", reach: "", note: "" };
   return { ...portsData, ports: [...ports, port] };
 }
+
+// Respuesta de /actions/workflows/update.yml/runs?status=success: hora de la última comprobación.
+export function lastCheckFromRuns(body) {
+  const run = body && body.workflow_runs && body.workflow_runs[0];
+  return run ? run.updated_at : null;
+}
+
+export function snapLabel(checkedAt, updatedAt, now) {
+  if (!checkedAt) return updatedAt ? `Datos de GitHub actualizados ${relativeTime(updatedAt, now)}` : "";
+  const checked = `Comprobado en GitHub ${relativeTime(checkedAt, now)}`;
+  const changed = updatedAt && relativeTime(updatedAt, now);
+  return changed && changed !== relativeTime(checkedAt, now) ? `${checked} · últimos cambios ${changed}` : checked;
+}

@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
   acceptCandidate, buildRows, candidateList, dismissRepo, filterRows,
-  isRecent, relativeTime, removePort, setFollow, slugify, sortRows, undismissRepo,
+  isRecent, lastCheckFromRuns, relativeTime, removePort, snapLabel, setFollow, slugify, sortRows, undismissRepo,
 } from "../../web/logic.js";
 
 const PORTS = [
@@ -148,4 +148,18 @@ test("buildRows flags a replaced repo", () => {
   const github = { repos: { "a/b": { ...GITHUB.repos["supermedo/bloodborne_pc"], replaced: true } } };
 
   assert.equal(buildRows([{ ...PORTS[0], repo: "a/b" }], github, [])[0].replaced, true);
+});
+
+test("lastCheckFromRuns takes the newest successful run or null", () => {
+  assert.equal(lastCheckFromRuns({ workflow_runs: [{ updated_at: "2026-10-18T05:20:00Z" }] }), "2026-10-18T05:20:00Z");
+  assert.equal(lastCheckFromRuns({ workflow_runs: [] }), null);
+  assert.equal(lastCheckFromRuns(null), null);
+});
+
+test("snapLabel shows last check and, if older, last data change", () => {
+  assert.equal(snapLabel("2026-10-18T11:55:00Z", "2026-10-18T07:00:00Z", NOW),
+    "Comprobado en GitHub hace minutos · últimos cambios hace 5 h");
+  assert.equal(snapLabel("2026-10-18T11:55:00Z", "2026-10-18T11:55:00Z", NOW), "Comprobado en GitHub hace minutos");
+  assert.equal(snapLabel(null, "2026-10-18T07:00:00Z", NOW), "Datos de GitHub actualizados hace 5 h");
+  assert.equal(snapLabel(null, null, NOW), "");
 });

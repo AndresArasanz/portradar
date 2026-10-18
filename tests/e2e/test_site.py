@@ -41,6 +41,8 @@ def page(browser):
     context = browser.new_context(viewport={"width": 1280, "height": 900})
     pg = context.new_page()
     pg.route("**/fonts.googleapis.com/**", lambda r: r.fulfill(status=200, content_type="text/css", body=""))
+    pg.route("**/actions/workflows/update.yml/runs**",
+             lambda r: r.fulfill(status=200, json={"workflow_runs": [{"updated_at": "2099-01-01T00:00:00Z"}]}))
     pg.errors = []
     pg.on("pageerror", lambda e: pg.errors.append(str(e)))
     pg.on("console", lambda m: pg.errors.append(m.text) if m.type == "error" else None)
@@ -191,3 +193,16 @@ def test_csp_allows_the_page_to_work(page, site_url):
 
     expect(page.locator("#rows tr").first).to_be_visible()
     assert not [e for e in page.errors if "Content Security Policy" in e]
+
+
+def test_header_shows_last_check_from_workflow_runs(page, site_url):
+    page.goto(site_url)
+
+    expect(page.locator("#snap")).to_contain_text("Comprobado en GitHub")
+
+
+def test_header_falls_back_to_data_date_when_runs_api_fails(page, site_url):
+    page.route("**/actions/workflows/update.yml/runs**", lambda r: r.fulfill(status=403, json={}))
+    page.goto(site_url)
+
+    expect(page.locator("#snap")).to_contain_text("Datos de GitHub actualizados")
