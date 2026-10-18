@@ -40,6 +40,14 @@
       "stars": 0,
       "url": "https://github.com/Alonessam/bloodborne-w11-port"
     },
+    "andresarasanz/portradar": {
+      "description": "Radar de ports nativos no oficiales de PS4 a PC publicados en GitHub, actualizado a diario sin IA",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T18:50:24Z",
+      "repo": "AndresArasanz/portradar",
+      "stars": 0,
+      "url": "https://github.com/AndresArasanz/portradar"
+    },
     "astrr00/bloodbornepc": {
       "description": "Native, open-source PC port of Bloodborne (PS4, v1.09 + The Old Hunters) for Windows and Linux.",
       "found_at": "2026-10-18",
@@ -95,6 +103,14 @@
       "repo": "drakenabarion/virtualon_pc",
       "stars": 0,
       "url": "https://github.com/drakenabarion/virtualon_pc"
+    },
+    "fladnag86/driveclub-port-applesilicon": {
+      "description": "Driveclub (PS4) native port running on Apple Silicon Macs under Rosetta 2 - fork of BlackLineInteractive/Driveclub-Port with GPU fixes and performance work",
+      "found_at": "2026-10-18",
+      "pushed_at": "2026-10-18T18:44:44Z",
+      "repo": "fladnaG86/Driveclub-Port-AppleSilicon",
+      "stars": 0,
+      "url": "https://github.com/fladnaG86/Driveclub-Port-AppleSilicon"
     },
     "francescograzioso/gr-port": {
       "description": "Gravity Rush Remastered (PS4) running natively on Windows: Orbis HLE + GCN to SPIR-V/Vulkan translation layer",
