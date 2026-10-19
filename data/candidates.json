@@ -240,6 +240,14 @@
       "stars": 0,
       "url": "https://github.com/ParquePatricense/skate3-recomp-mods"
     },
+    "petrishevgeorgii-debug/prototype-pc-slop": {
+      "description": "Native PC port of PROTOTYPE (PS4 PROTOTYPE BIOHAZARD BUNDLE): FSR 3.1/4, 60 FPS, higher resolutions, in-game menu. No game files included.",
+      "found_at": "2026-10-19",
+      "pushed_at": "2026-10-19T06:59:54Z",
+      "repo": "petrishevgeorgii-debug/prototype-pc-slop",
+      "stars": 4,
+      "url": "https://github.com/petrishevgeorgii-debug/prototype-pc-slop"
+    },
     "porttaco/unofficial-stremio-ps4": {
       "description": "Unofficial Stremio port for jailbroken PlayStation 4 consoles. Native PS4 app with account sign-in, addons, streaming, and playback support.",
       "found_at": "2026-10-18",
@@ -343,6 +351,14 @@
       "repo": "yerasuu/psport",
       "stars": 1,
       "url": "https://github.com/yerasuu/psport"
+    },
+    "yoavaharonofficial/recomp-to-ps4-fpkg": {
+      "description": "",
+      "found_at": "2026-10-19",
+      "pushed_at": "2026-10-18T23:27:12Z",
+      "repo": "YoavAharonOfficial/Recomp-to-PS4-FPKG",
+      "stars": 0,
+      "url": "https://github.com/YoavAharonOfficial/Recomp-to-PS4-FPKG"
     }
   }
 }
