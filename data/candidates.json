@@ -88,6 +88,14 @@
       "stars": 5,
       "url": "https://github.com/bloodborne-native/bloodborne-recomp"
     },
+    "castlesea/infamous-second-son-pc-port": {
+      "description": "Native Windows port of inFAMOUS Second Son (PS4): custom runtime + Vulkan renderer derived from shadPS4. Bring your own game.",
+      "found_at": "2026-10-20",
+      "pushed_at": "2026-10-20T00:21:33Z",
+      "repo": "Castlesea/infamous-second-son-pc-port",
+      "stars": 40,
+      "url": "https://github.com/Castlesea/infamous-second-son-pc-port"
+    },
     "chanseyisthebest/peggle2-nx": {
       "description": "Peggle 2 (Xbox Live Arcade) running natively on Nintendo Switch: static recompilation with ReXGlue and a native Vulkan renderer, with the PS4 Magical Masters content (Windy, Jimmy, their areas and costumes) and 1080p art",
       "found_at": "2026-10-18",
@@ -95,6 +103,14 @@
       "repo": "ChanseyIsTheBest/peggle2-nx",
       "stars": 2,
       "url": "https://github.com/ChanseyIsTheBest/peggle2-nx"
+    },
+    "claudiogodoi/ufc-4-ps4-port-linux": {
+      "description": "EA SPORTS UFC 4 (PS4) native port for Linux, built on the UFC 3 native port (GNSB / SacredFire / bbport / shadPS4). Experimental. No game files included.",
+      "found_at": "2026-10-20",
+      "pushed_at": "2026-10-19T11:58:57Z",
+      "repo": "ClaudioGodoi/UFC-4-PS4-PORT-LINUX",
+      "stars": 0,
+      "url": "https://github.com/ClaudioGodoi/UFC-4-PS4-PORT-LINUX"
     },
     "drakenabarion/virtualon_pc": {
       "description": "Cyber Troopers Virtual-On Masterpiece 1995-2001 (PS4) running natively on Linux. Built on the Uncharted and Bloodborne PC ports and the shadPS4 renderer. Bring your own dump.",
@@ -168,6 +184,14 @@
       "stars": 5,
       "url": "https://github.com/iHaiDeeZ/SMW"
     },
+    "lagazyt/lz-launcher": {
+      "description": "Biblioteca e launcher para jogos recompilados (ports de PS4, PS3 e Xbox) e jogos de PC, com capas automáticas, tempo de jogo e atualização automática - criado por Lagaz",
+      "found_at": "2026-10-20",
+      "pushed_at": "2026-10-20T03:36:54Z",
+      "repo": "LagazYT/lz-launcher",
+      "stars": 0,
+      "url": "https://github.com/LagazYT/lz-launcher"
+    },
     "lxnis/order1886-pc": {
       "description": "Experimental native Windows port of The Order: 1886 (PS4, CUSA00035 v01.02). Own game dump required, no game files included. GPL-2.0-or-later.",
       "found_at": "2026-10-18",
@@ -224,6 +248,14 @@
       "stars": 0,
       "url": "https://github.com/NichlasEk/AVP-PS4"
     },
+    "nichlasek/descent-ps4": {
+      "description": "Descent I & II native OpenOrbis PS4 port based on DXX-Rebirth. Bring your own game data.",
+      "found_at": "2026-10-20",
+      "pushed_at": "2026-10-19T15:54:36Z",
+      "repo": "NichlasEk/Descent-PS4",
+      "stars": 0,
+      "url": "https://github.com/NichlasEk/Descent-PS4"
+    },
     "overkilllabs3/driveclub-recomp": {
       "description": "DriveClub (PS4, version 1.28) running natively on Windows",
       "found_at": "2026-10-18",
@@ -255,6 +287,14 @@
       "repo": "porttaco/unofficial-stremio-ps4",
       "stars": 0,
       "url": "https://github.com/porttaco/unofficial-stremio-ps4"
+    },
+    "prathewsh/anyps4": {
+      "description": "A shared compatibility layer and runtime core that allows PlayStation 4 games to run natively on PC without CPU emulation",
+      "found_at": "2026-10-20",
+      "pushed_at": "2026-10-19T20:12:25Z",
+      "repo": "Prathewsh/AnyPs4",
+      "stars": 1,
+      "url": "https://github.com/Prathewsh/AnyPs4"
     },
     "prathewsh/gravityrush_pc": {
       "description": "Experimental native runtime for Gravity Rush Remastered and Gravity Rush 2 on Windows 10 and 11 built on the native bloodbourne PC port base by Supermedo and deadinside28",
