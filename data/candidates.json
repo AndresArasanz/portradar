@@ -88,6 +88,14 @@
       "stars": 5,
       "url": "https://github.com/bloodborne-native/bloodborne-recomp"
     },
+    "braito4/sotc-mac": {
+      "description": "Experimental native ARM64 macOS port of Shadow of the Colossus PS4. CPU diagnostics; not playable yet. Built on bloodborne-native, bbport and shadPS4.",
+      "found_at": "2026-10-21",
+      "pushed_at": "2026-10-21T10:04:54Z",
+      "repo": "braito4/sotc-mac",
+      "stars": 0,
+      "url": "https://github.com/braito4/sotc-mac"
+    },
     "castlesea/infamous-second-son-pc-port": {
       "description": "Native Windows port of inFAMOUS Second Son (PS4): custom runtime + Vulkan renderer derived from shadPS4. Bring your own game.",
       "found_at": "2026-10-20",
@@ -304,6 +312,14 @@
       "stars": 7,
       "url": "https://github.com/Prathewsh/gravityrush_pc"
     },
+    "qnfn/driveclub-port": {
+      "description": "Driveclub PS4 PC Port",
+      "found_at": "2026-10-21",
+      "pushed_at": "2026-10-20T18:27:17Z",
+      "repo": "qnfn/Driveclub-Port",
+      "stars": 8,
+      "url": "https://github.com/qnfn/Driveclub-Port"
+    },
     "quovix/asirn": {
       "description": "ASIRN/ASIC — padrão de identificação (nome lógico legível + forma compacta com dígito verificador) para artefatos de recompilação/porte nativo. Spec + registry + codec de referência.",
       "found_at": "2026-10-18",
@@ -359,6 +375,14 @@
       "repo": "TheNIKITO/LittleBigPlanet-3---PC",
       "stars": 0,
       "url": "https://github.com/TheNIKITO/LittleBigPlanet-3---PC"
+    },
+    "vantageex/infamous-first-light-pc": {
+      "description": "Unofficial native PC port of inFAMOUS First Light (PS4). Bring your own game dump - no game files included.",
+      "found_at": "2026-10-21",
+      "pushed_at": "2026-10-21T09:57:28Z",
+      "repo": "VantageEX/infamous-first-light-pc",
+      "stars": 1,
+      "url": "https://github.com/VantageEX/infamous-first-light-pc"
     },
     "vascon-es/lego-dimensions-pc": {
       "description": "Unofficial native port of LEGO Dimensions (PS4) to Windows - requires your own dump of the game",
