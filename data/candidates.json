@@ -144,6 +144,14 @@
       "stars": 0,
       "url": "https://github.com/FrancescoGrazioso/gr-port"
     },
+    "genrythefox0/orbisglue": {
+      "description": "PS4 recompilation project: your own PS4 game's code lifted to C (Mosaic) and played natively on Windows. Built on shadPS4.",
+      "found_at": "2026-10-22",
+      "pushed_at": "2026-10-21T23:29:34Z",
+      "repo": "GenryTheFox0/OrbisGlue",
+      "stars": 0,
+      "url": "https://github.com/GenryTheFox0/OrbisGlue"
+    },
     "gtggdd4mzb-source/bbport-cn-fix": {
       "description": "bbport (Bloodborne native Windows port): CJK-locale startup fix + 4GB VRAM stable profile. Patch/config/docs only - no game files, no upstream binaries. GPL-2.0.",
       "found_at": "2026-10-18",
@@ -191,6 +199,14 @@
       "repo": "iHaiDeeZ/SMW",
       "stars": 5,
       "url": "https://github.com/iHaiDeeZ/SMW"
+    },
+    "ioritree/kyoei_toshi_pc": {
+      "description": "Native Windows port of the PS4 version of City Shrouded in Shadow (巨影都市), built on hachi23/unicorn_overlord_pc. No game files included.",
+      "found_at": "2026-10-22",
+      "pushed_at": "2026-10-22T07:02:56Z",
+      "repo": "ioritree/kyoei_toshi_pc",
+      "stars": 1,
+      "url": "https://github.com/ioritree/kyoei_toshi_pc"
     },
     "lagazyt/lz-launcher": {
       "description": "Biblioteca e launcher para jogos recompilados (ports de PS4, PS3 e Xbox) e jogos de PC, com capas automáticas, tempo de jogo e atualização automática - criado por Lagaz",
