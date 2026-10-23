@@ -1,5 +1,13 @@
 {
   "candidates": {
+    "abdelmoumendeghbouche/knack_pc": {
+      "description": "Native PC port of Knack (PS4): the game's own x86-64 code runs on the PC, with a PS4 runtime and the shadPS4 Vulkan video core. No emulator.",
+      "found_at": "2026-10-23",
+      "pushed_at": "2026-10-23T04:18:13Z",
+      "repo": "AbdelmoumenDeghbouche/knack_pc",
+      "stars": 1,
+      "url": "https://github.com/AbdelmoumenDeghbouche/knack_pc"
+    },
     "abdelmoumendeghbouche/wipeout_pc": {
       "description": "WipEout Omega Collection (PS4) native PC port for Windows: original x86-64 code on the CPU, PS4 runtime, shadPS4 Vulkan video core. Early development. No game files included.",
       "found_at": "2026-10-18",
@@ -144,6 +152,14 @@
       "stars": 0,
       "url": "https://github.com/FrancescoGrazioso/gr-port"
     },
+    "gabrieelhm/ps4pkgtool-linux": {
+      "description": "Native Linux port (.NET 10 + GTK3/WebKit2GTK + AppImage) of pearlxcore/PS4PKGTool | Port nativo para Linux do PS4PKGTool (original por pearlxcore)",
+      "found_at": "2026-10-23",
+      "pushed_at": "2026-10-22T21:13:54Z",
+      "repo": "gabrieelhm/PS4PKGTool-Linux",
+      "stars": 0,
+      "url": "https://github.com/gabrieelhm/PS4PKGTool-Linux"
+    },
     "genrythefox0/orbisglue": {
       "description": "PS4 recompilation project: your own PS4 game's code lifted to C (Mosaic) and played natively on Windows. Built on shadPS4.",
       "found_at": "2026-10-22",
@@ -184,6 +200,14 @@
       "stars": 4,
       "url": "https://github.com/heyzerr/ShadowOfTheColossus-PC"
     },
+    "hyant4/knack-ii-pc-port": {
+      "description": "Unofficial Knack II (Knack 2) PC port for Windows. Experimental Vulkan alpha, launcher and local co-op; requires your own PS4 game dump.",
+      "found_at": "2026-10-23",
+      "pushed_at": "2026-10-23T05:03:20Z",
+      "repo": "Hyant4/Knack-II-pc-port",
+      "stars": 0,
+      "url": "https://github.com/Hyant4/Knack-II-pc-port"
+    },
     "igoraugustohh/the-order-1886-pc-port": {
       "description": "The Order: 1886 rodando nativo no Windows 10/11: câmera cinematográfica original do PS4, NVIDIA DLSS, até 120 FPS, 23 idiomas e um launcher próprio.",
       "found_at": "2026-10-18",
@@ -200,6 +224,14 @@
       "stars": 5,
       "url": "https://github.com/iHaiDeeZ/SMW"
     },
+    "ihaideez/ssbu": {
+      "description": "SSBU: Super Smash Bros. Ultimate recomp (WindowSmash) on jailbroken PS4 (GoldHEN): native AArch64-to-C recomp, Direct3D 11 through DXVK on RADV, FSR 1, L3+R3 menu, 4 players. Bring your own dump.",
+      "found_at": "2026-10-23",
+      "pushed_at": "2026-10-23T06:57:00Z",
+      "repo": "iHaiDeeZ/SSBU",
+      "stars": 15,
+      "url": "https://github.com/iHaiDeeZ/SSBU"
+    },
     "ioritree/kyoei_toshi_pc": {
       "description": "Native Windows port of the PS4 version of City Shrouded in Shadow (巨影都市), built on hachi23/unicorn_overlord_pc. No game files included.",
       "found_at": "2026-10-22",
@@ -207,6 +239,30 @@
       "repo": "ioritree/kyoei_toshi_pc",
       "stars": 1,
       "url": "https://github.com/ioritree/kyoei_toshi_pc"
+    },
+    "johnnygentoo/gvport": {
+      "description": "Native Linux port of GUNDAM VERSUS (PS4), built on the Bloodborne port. Bring your own legal dump; no game files here.",
+      "found_at": "2026-10-23",
+      "pushed_at": "2026-10-23T09:35:16Z",
+      "repo": "johnnygentoo/gvport",
+      "stars": 0,
+      "url": "https://github.com/johnnygentoo/gvport"
+    },
+    "johnnygentoo/maxiboostport": {
+      "description": "Native Linux port of MOBILE SUIT GUNDAM EXTREME VS. MAXIBOOST ON (PS4). Bring your own legal dump; no game files included.",
+      "found_at": "2026-10-23",
+      "pushed_at": "2026-10-23T09:50:42Z",
+      "repo": "johnnygentoo/MaxiboostPort",
+      "stars": 0,
+      "url": "https://github.com/johnnygentoo/MaxiboostPort"
+    },
+    "jpthebaby/gow3-ps4-remastered-modding-tool-blender-addon": {
+      "description": "Blender add-on to put your own character into God of War III Remastered (PC port) as Kratos - by Gamer JP",
+      "found_at": "2026-10-23",
+      "pushed_at": "2026-10-23T02:47:58Z",
+      "repo": "jpthebaby/GOW3-PS4-Remastered-Modding-Tool-Blender-Addon",
+      "stars": 0,
+      "url": "https://github.com/jpthebaby/GOW3-PS4-Remastered-Modding-Tool-Blender-Addon"
     },
     "lagazyt/lz-launcher": {
       "description": "Biblioteca e launcher para jogos recompilados (ports de PS4, PS3 e Xbox) e jogos de PC, com capas automáticas, tempo de jogo e atualização automática - criado por Lagaz",
@@ -255,6 +311,14 @@
       "repo": "Mohamed-Moslem-Allouch/God-of-War-3-Remastered-Pc-Port-PS4-Arabic-Translation",
       "stars": 7,
       "url": "https://github.com/Mohamed-Moslem-Allouch/God-of-War-3-Remastered-Pc-Port-PS4-Arabic-Translation"
+    },
+    "mohinshaikh5689/ifdk": {
+      "description": "God of War III (PS4) native iOS port for iPhone – FEXCore JIT + shadPS4 on MoltenVK, sideload, no jailbreak",
+      "found_at": "2026-10-23",
+      "pushed_at": "2026-10-23T07:08:33Z",
+      "repo": "MohinShaikh5689/IFDK",
+      "stars": 0,
+      "url": "https://github.com/MohinShaikh5689/IFDK"
     },
     "nakaionyt/shadowofthecolossus-pc-framegen": {
       "description": "Shadow of the Colossus (PS4) native PC port with DLSS-G / FSR 3 frame generation: 30 FPS locked, 60 shown. F7 uncaps live. Bring your own game files.",
