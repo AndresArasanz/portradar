@@ -128,6 +128,14 @@
       "stars": 0,
       "url": "https://github.com/ClaudioGodoi/UFC-4-PS4-PORT-LINUX"
     },
+    "datemasanaga/driveclub-port-applesilicon-zh-cn": {
+      "description": "Driveclub (PS4, Simplified Chinese) native port running on Apple Silicon Macs under Rosetta 2 - fork of BlackLineInteractive/Driveclub-Port with GPU fixes and performance work",
+      "found_at": "2026-10-24",
+      "pushed_at": "2026-10-24T06:13:48Z",
+      "repo": "DateMasanaga/Driveclub-Port-AppleSilicon-zh-CN",
+      "stars": 0,
+      "url": "https://github.com/DateMasanaga/Driveclub-Port-AppleSilicon-zh-CN"
+    },
     "drakenabarion/virtualon_pc": {
       "description": "Cyber Troopers Virtual-On Masterpiece 1995-2001 (PS4) running natively on Linux. Built on the Uncharted and Bloodborne PC ports and the shadPS4 renderer. Bring your own dump.",
       "found_at": "2026-10-18",
@@ -216,6 +224,14 @@
       "stars": 12,
       "url": "https://github.com/IgorAugustoHH/The-Order-1886-PC-Port"
     },
+    "ihaideez/botw": {
+      "description": "BOTW: The Legend of Zelda: Breath of the Wild recomp on jailbroken PS4 (GoldHEN). Native static recomp, NVN replayed on Vulkan through RADV. Bring your own game.",
+      "found_at": "2026-10-24",
+      "pushed_at": "2026-10-24T08:04:42Z",
+      "repo": "iHaiDeeZ/BOTW",
+      "stars": 1,
+      "url": "https://github.com/iHaiDeeZ/BOTW"
+    },
     "ihaideez/smw": {
       "description": "SMW: Super Mario Bros. Wonder Recomp on jailbroken PS4 (GoldHEN). Native static recomp, RADV Vulkan, FSR 1, L3+R3 quick menu, 4 players. Bring your own dump.",
       "found_at": "2026-10-18",
@@ -231,6 +247,22 @@
       "repo": "iHaiDeeZ/SSBU",
       "stars": 15,
       "url": "https://github.com/iHaiDeeZ/SSBU"
+    },
+    "ihaideez/totk-ps4": {
+      "description": "The Legend of Zelda: Tears of the Kingdom on a jailbroken PS4: static recompilation, NVN replayed on Vulkan/RADV. Source only: bring your own game.",
+      "found_at": "2026-10-24",
+      "pushed_at": "2026-10-24T07:37:25Z",
+      "repo": "iHaiDeeZ/TOTK-PS4",
+      "stars": 3,
+      "url": "https://github.com/iHaiDeeZ/TOTK-PS4"
+    },
+    "indrasundanese/kamenrider-moh-pc": {
+      "description": "Native port Kamen Rider Memory of Heroez (PS4) untuk PC — masih dalam tahap development (WIP).",
+      "found_at": "2026-10-24",
+      "pushed_at": "2026-10-24T06:00:34Z",
+      "repo": "indrasundanese/KamenRider-MoH-PC",
+      "stars": 0,
+      "url": "https://github.com/indrasundanese/KamenRider-MoH-PC"
     },
     "ioritree/kyoei_toshi_pc": {
       "description": "Native Windows port of the PS4 version of City Shrouded in Shadow (巨影都市), built on hachi23/unicorn_overlord_pc. No game files included.",
@@ -415,6 +447,14 @@
       "repo": "quovix/port-RMGE01-ps4-from-wii",
       "stars": 0,
       "url": "https://github.com/quovix/port-RMGE01-ps4-from-wii"
+    },
+    "razzconnect/basara4-native-pc": {
+      "description": "Sengoku Basara 4 Sumeragi Native PC Port & Launcher. Direct x86-64 CPU Execution, Re-implemented PS4 System Contracts & Vulkan Translation by Razz",
+      "found_at": "2026-10-24",
+      "pushed_at": "2026-10-23T19:54:48Z",
+      "repo": "razzconnect/basara4-native-pc",
+      "stars": 14,
+      "url": "https://github.com/razzconnect/basara4-native-pc"
     },
     "samuel-sslabs/port-integration": {
       "description": "Buscador e catálogo unificado de ports nativos, decompilações e recompilações estáticas de consoles para PC (PS5, PS4, Switch, Xbox 360, N64 e clássicos), com rastreamento em tempo real de releases do GitHub.",
