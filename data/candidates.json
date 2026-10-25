@@ -128,6 +128,14 @@
       "stars": 0,
       "url": "https://github.com/ClaudioGodoi/UFC-4-PS4-PORT-LINUX"
     },
+    "cyberheater/rushofblood-pcvr": {
+      "description": "A PCVR port of the Classic Rush of Blood PS4 VR game",
+      "found_at": "2026-10-25",
+      "pushed_at": "2026-10-24T17:09:54Z",
+      "repo": "cyberheater/RushOfBlood-PCVR",
+      "stars": 1,
+      "url": "https://github.com/cyberheater/RushOfBlood-PCVR"
+    },
     "datemasanaga/driveclub-port-applesilicon-zh-cn": {
       "description": "Driveclub (PS4, Simplified Chinese) native port running on Apple Silicon Macs under Rosetta 2 - fork of BlackLineInteractive/Driveclub-Port with GPU fixes and performance work",
       "found_at": "2026-10-24",
@@ -159,6 +167,14 @@
       "repo": "FrancescoGrazioso/gr-port",
       "stars": 0,
       "url": "https://github.com/FrancescoGrazioso/gr-port"
+    },
+    "funkiin/brawlhallaps4recomp": {
+      "description": "A recompile of Brawlhalla 10.50's PS4 release.",
+      "found_at": "2026-10-25",
+      "pushed_at": "2026-10-24T16:32:55Z",
+      "repo": "funkiin/BrawlhallaPS4Recomp",
+      "stars": 0,
+      "url": "https://github.com/funkiin/BrawlhallaPS4Recomp"
     },
     "gabrieelhm/ps4pkgtool-linux": {
       "description": "Native Linux port (.NET 10 + GTK3/WebKit2GTK + AppImage) of pearlxcore/PS4PKGTool | Port nativo para Linux do PS4PKGTool (original por pearlxcore)",
@@ -231,6 +247,14 @@
       "repo": "iHaiDeeZ/BOTW",
       "stars": 1,
       "url": "https://github.com/iHaiDeeZ/BOTW"
+    },
+    "ihaideez/conker-ps4": {
+      "description": "Conker's Bad Fur Day: Recompiled (N64Recomp + RT64) on jailbroken PS4 (GoldHEN): native static recomp, RT64 on Vulkan through RADV, L3+R3 quick menu, save states. Bring your own ROM.",
+      "found_at": "2026-10-25",
+      "pushed_at": "2026-10-25T00:38:20Z",
+      "repo": "iHaiDeeZ/Conker-PS4",
+      "stars": 1,
+      "url": "https://github.com/iHaiDeeZ/Conker-PS4"
     },
     "ihaideez/smw": {
       "description": "SMW: Super Mario Bros. Wonder Recomp on jailbroken PS4 (GoldHEN). Native static recomp, RADV Vulkan, FSR 1, L3+R3 quick menu, 4 players. Bring your own dump.",
@@ -344,6 +368,14 @@
       "stars": 7,
       "url": "https://github.com/Mohamed-Moslem-Allouch/God-of-War-3-Remastered-Pc-Port-PS4-Arabic-Translation"
     },
+    "mohinshaikh5689/god-of-war-3-ios": {
+      "description": "God of War III (PS4) native iOS port for iPhone – FEXCore JIT + shadPS4 on MoltenVK, sideload, no jailbreak",
+      "found_at": "2026-10-25",
+      "pushed_at": "2026-10-25T09:10:31Z",
+      "repo": "MohinShaikh5689/god-of-war-3-ios",
+      "stars": 2,
+      "url": "https://github.com/MohinShaikh5689/god-of-war-3-ios"
+    },
     "mohinshaikh5689/ifdk": {
       "description": "God of War III (PS4) native iOS port for iPhone – FEXCore JIT + shadPS4 on MoltenVK, sideload, no jailbreak",
       "found_at": "2026-10-23",
@@ -351,6 +383,14 @@
       "repo": "MohinShaikh5689/IFDK",
       "stars": 0,
       "url": "https://github.com/MohinShaikh5689/IFDK"
+    },
+    "momochan32/ctr-on-mac": {
+      "description": "Unofficial macOS (Apple Silicon) port of OCTR — Crash Team Racing Nitro-Fueled native on Mac with RyuNET online. Bring your own game dump.",
+      "found_at": "2026-10-25",
+      "pushed_at": "2026-10-25T08:56:39Z",
+      "repo": "momochan32/ctr-on-mac",
+      "stars": 0,
+      "url": "https://github.com/momochan32/ctr-on-mac"
     },
     "nakaionyt/shadowofthecolossus-pc-framegen": {
       "description": "Shadow of the Colossus (PS4) native PC port with DLSS-G / FSR 3 frame generation: 30 FPS locked, 60 shown. F7 uncaps live. Bring your own game files.",
