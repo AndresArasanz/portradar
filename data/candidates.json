@@ -152,6 +152,14 @@
       "stars": 0,
       "url": "https://github.com/drakenabarion/virtualon_pc"
     },
+    "duarttbr/rgarage-hub-releases": {
+      "description": "RGARAGE HUB — todos os ports e recompilações de jogos num hub só, com cara de console · every game port and recompilation in one console-style hub (downloads)",
+      "found_at": "2026-10-26",
+      "pushed_at": "2026-10-26T07:56:15Z",
+      "repo": "DuarttBR/RGARAGE-HUB-Releases",
+      "stars": 0,
+      "url": "https://github.com/DuarttBR/RGARAGE-HUB-Releases"
+    },
     "fladnag86/driveclub-port-applesilicon": {
       "description": "Driveclub (PS4) native port running on Apple Silicon Macs under Rosetta 2 - fork of BlackLineInteractive/Driveclub-Port with GPU fixes and performance work",
       "found_at": "2026-10-18",
@@ -231,6 +239,14 @@
       "repo": "Hyant4/Knack-II-pc-port",
       "stars": 0,
       "url": "https://github.com/Hyant4/Knack-II-pc-port"
+    },
+    "ideathmaniac/ps4recomp": {
+      "description": "",
+      "found_at": "2026-10-26",
+      "pushed_at": "2026-10-26T11:03:02Z",
+      "repo": "ideathmaniac/ps4recomp",
+      "stars": 0,
+      "url": "https://github.com/ideathmaniac/ps4recomp"
     },
     "igoraugustohh/the-order-1886-pc-port": {
       "description": "The Order: 1886 rodando nativo no Windows 10/11: câmera cinematográfica original do PS4, NVIDIA DLSS, até 120 FPS, 23 idiomas e um launcher próprio.",
@@ -464,6 +480,14 @@
       "stars": 7,
       "url": "https://github.com/Prathewsh/gravityrush_pc"
     },
+    "pyr097/lanoirepcport": {
+      "description": "L.A. Noire PS4 version PC Port with shadps4",
+      "found_at": "2026-10-26",
+      "pushed_at": "2026-10-26T01:21:57Z",
+      "repo": "pyr097/lanoirepcport",
+      "stars": 0,
+      "url": "https://github.com/pyr097/lanoirepcport"
+    },
     "qnfn/driveclub-port": {
       "description": "Driveclub PS4 PC Port",
       "found_at": "2026-10-21",
@@ -583,6 +607,14 @@
       "repo": "YoavAharonOfficial/Recomp-to-PS4-FPKG",
       "stars": 0,
       "url": "https://github.com/YoavAharonOfficial/Recomp-to-PS4-FPKG"
+    },
+    "zuancrisp/spartanport": {
+      "description": "SpartanPort: unofficial PC port of God of War III Remastered (PS4) for Windows and Linux (AppImage). Original x86-64 code runs directly on the CPU with a custom runtime; graphics use shadPS4's Vulkan video core. Launcher, in-game menu, controller icons and up to 240 FPS. Requires your own game dump. No game files included.",
+      "found_at": "2026-10-26",
+      "pushed_at": "2026-10-26T04:56:58Z",
+      "repo": "ZuanCrisp/SpartanPort",
+      "stars": 0,
+      "url": "https://github.com/ZuanCrisp/SpartanPort"
     }
   }
 }
