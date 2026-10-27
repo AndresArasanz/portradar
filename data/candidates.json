@@ -40,6 +40,14 @@
       "stars": 0,
       "url": "https://github.com/alexarocas/Mod-converter-PC-to-PS4-"
     },
+    "aliveoutside/infamous-second-son-linux": {
+      "description": "Native Linux port of inFAMOUS Second Son (PS4): the game's x86-64 code runs on the CPU, rendering goes to Vulkan. Bring your own game.",
+      "found_at": "2026-10-27",
+      "pushed_at": "2026-10-26T16:26:31Z",
+      "repo": "aliveoutside/infamous-second-son-linux",
+      "stars": 3,
+      "url": "https://github.com/aliveoutside/infamous-second-son-linux"
+    },
     "alonessam/bloodborne-w11-port": {
       "description": "Native Windows 11/10 port & Vulkan 1.3 translation layer for Bloodborne (PS4) featuring NVIDIA DLSS, AMD FSR 4.1 Neural, and unlocked frame rates.            ",
       "found_at": "2026-10-18",
@@ -103,6 +111,14 @@
       "repo": "braito4/sotc-mac",
       "stars": 0,
       "url": "https://github.com/braito4/sotc-mac"
+    },
+    "captaintuckerrvb/ps4-native-ports-recomps-emulators-apps-directory": {
+      "description": "A directory to keep track of all the ports to the jailbroken PS4 scene",
+      "found_at": "2026-10-27",
+      "pushed_at": "2026-10-26T19:09:42Z",
+      "repo": "CaptainTuckerRvB/PS4-Native-Ports-Recomps-Emulators-Apps-Directory",
+      "stars": 17,
+      "url": "https://github.com/CaptainTuckerRvB/PS4-Native-Ports-Recomps-Emulators-Apps-Directory"
     },
     "castlesea/infamous-second-son-pc-port": {
       "description": "Native Windows port of inFAMOUS Second Son (PS4): custom runtime + Vulkan renderer derived from shadPS4. Bring your own game.",
