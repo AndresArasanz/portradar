@@ -11,7 +11,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1415622546,
-      "stars": 1535,
+      "stars": 1568,
       "status_changed_at": "2026-10-21",
       "status_text": "the game can be finished from start to end (v0.60.3: played through the last colossus, the ending and the credits, with high quality textures, PS4 Pro mode and 60 FPS on)."
     },
@@ -26,7 +26,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1416121528,
-      "stars": 187,
+      "stars": 191,
       "status_changed_at": null,
       "status_text": null
     },
@@ -41,7 +41,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1399236672,
-      "stars": 3659,
+      "stars": 3690,
       "status_changed_at": null,
       "status_text": "experimental, playable. The game boots, loads saves and plays (the Hunter's Dream and several areas of Yharnam were played with it) with sound, gamepad and saving. A full play-through has not been verified, and only one machine (Linux, AMD Radeon RX 7800 XT, Mesa/RADV) has been…"
     },
@@ -50,13 +50,13 @@
       "fork": true,
       "fork_of": "Supermedo/bloodborne_pc",
       "missing": false,
-      "pushed_at": "2026-10-27T04:37:53Z",
+      "pushed_at": "2026-10-28T04:07:58Z",
       "release_date": "2026-10-27",
       "release_tag": "windows-v2.8.0-launcher-identity-test1",
       "renamed_to": "FelipePrado0/SpartanPort",
       "replaced": false,
       "repo_id": 1409580064,
-      "stars": 4230,
+      "stars": 4282,
       "status_changed_at": null,
       "status_text": null
     },
@@ -71,7 +71,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1415782260,
-      "stars": 654,
+      "stars": 657,
       "status_changed_at": null,
       "status_text": "playable. Menus, Adventure and Arcade, races, sound, cutscenes, Xbox/SDL controllers and keyboard, saving, the community patches (60 FPS, no motion blur), restart from the in-game menu, and the game's DLC from your own packages (optional). Internal resolution from 480p to…"
     },
@@ -86,7 +86,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1419442607,
-      "stars": 197,
+      "stars": 206,
       "status_changed_at": "2026-10-20",
       "status_text": "Current release: 0.1.9 (notes). What's new since 0.1.6:"
     },
@@ -95,13 +95,13 @@
       "fork": false,
       "fork_of": null,
       "missing": false,
-      "pushed_at": "2026-10-26T21:15:16Z",
-      "release_date": "2026-10-26",
-      "release_tag": "v1.3.0",
+      "pushed_at": "2026-10-27T16:27:24Z",
+      "release_date": "2026-10-27",
+      "release_tag": "v1.3.1",
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1416842013,
-      "stars": 154,
+      "stars": 166,
       "status_changed_at": null,
       "status_text": null
     },
@@ -116,7 +116,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1417228030,
-      "stars": 123,
+      "stars": 138,
       "status_changed_at": null,
       "status_text": "Boot, abertura com créditos e legendas: ✅ Funciona · Título, menu e gameplay: ✅ 30 FPS, 1080p nativo · Áudio: ✅ Com o libSceNgs2.sprx do firmware do seu console + Audio3d reimplementado · Idioma: ✅ Escolhido no launcher (legendas e menus em português testados) · Controle: ✅…"
     },
@@ -125,13 +125,13 @@
       "fork": false,
       "fork_of": null,
       "missing": false,
-      "pushed_at": "2026-10-26T04:34:36Z",
-      "release_date": "2026-10-24",
-      "release_tag": "beta-2026.10.24-88e912f",
+      "pushed_at": "2026-10-28T02:39:34Z",
+      "release_date": "2026-10-28",
+      "release_tag": "beta-rc1",
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1418054191,
-      "stars": 946,
+      "stars": 971,
       "status_changed_at": "2026-10-21",
       "status_text": "Boot, title, intro and gameplay: ✅ Works; tested up to \"Go to Longhouse\", with climbing, running, powers and cutscenes · Motion sensor (graffiti, motion prompts): ✅ Real gyro, or simulated on any controller and the keyboard · Drain smoke, drones and GPU particles: ✅ With…"
     },
@@ -140,13 +140,13 @@
       "fork": false,
       "fork_of": null,
       "missing": false,
-      "pushed_at": "2026-10-24T03:00:35Z",
-      "release_date": "2026-10-24",
-      "release_tag": "v2026.10.24-1a130dd",
+      "pushed_at": "2026-10-27T15:04:33Z",
+      "release_date": "2026-10-27",
+      "release_tag": "v2026.10.27-4825a99",
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1416366647,
-      "stars": 454,
+      "stars": 478,
       "status_changed_at": null,
       "status_text": "Boot, menu, intro e gameplay: ✅ Funciona; sessões de 10+ minutos sem falhas · Imagem: ✅ Nativa, 1080p, sem tremores; SMAA, RCAS/CAS e ajustes de cor opcionais · Áudio: ✅ Com o libSceNgs2.sprx do firmware do seu console · Controle: ✅ DualSense, DualShock 4, Xbox e 8BitDo via…"
     },
@@ -161,7 +161,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1408557215,
-      "stars": 2214,
+      "stars": 2250,
       "status_changed_at": null,
       "status_text": null
     },
@@ -191,7 +191,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1418803345,
-      "stars": 234,
+      "stars": 247,
       "status_changed_at": null,
       "status_text": null
     },
@@ -206,7 +206,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1407727187,
-      "stars": 4724,
+      "stars": 4806,
       "status_changed_at": null,
       "status_text": null
     },
@@ -221,10 +221,10 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1419982962,
-      "stars": 2028,
+      "stars": 2053,
       "status_changed_at": null,
       "status_text": null
     }
   },
-  "updated_at": "2026-10-27T10:31:22Z"
+  "updated_at": "2026-10-28T11:19:45Z"
 }

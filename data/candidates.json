@@ -128,6 +128,14 @@
       "stars": 40,
       "url": "https://github.com/Castlesea/infamous-second-son-pc-port"
     },
+    "ch-kumar-kartik/p.t.-pc-port": {
+      "description": "Native PC port of P.T. by Lorean [runs from your own PS4 game files or yk the workaround for that ;) ]",
+      "found_at": "2026-10-28",
+      "pushed_at": "2026-10-28T07:30:36Z",
+      "repo": "Ch-Kumar-Kartik/P.T.-PC-Port",
+      "stars": 0,
+      "url": "https://github.com/Ch-Kumar-Kartik/P.T.-PC-Port"
+    },
     "chanseyisthebest/peggle2-nx": {
       "description": "Peggle 2 (Xbox Live Arcade) running natively on Nintendo Switch: static recompilation with ReXGlue and a native Vulkan renderer, with the PS4 Magical Masters content (Windy, Jimmy, their areas and costumes) and 1080p art",
       "found_at": "2026-10-18",
@@ -543,6 +551,14 @@
       "repo": "Samuel-SSLabs/Port-Integration",
       "stars": 0,
       "url": "https://github.com/Samuel-SSLabs/Port-Integration"
+    },
+    "saulob/odin-sphere-leifthrasir-pc": {
+      "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
+      "found_at": "2026-10-28",
+      "pushed_at": "2026-10-27T22:37:51Z",
+      "repo": "saulob/odin-sphere-leifthrasir-pc",
+      "stars": 45,
+      "url": "https://github.com/saulob/odin-sphere-leifthrasir-pc"
     },
     "schans-arg/nhl24-pc-port": {
       "description": "Experimental PS4-to-PC port of NHL 24. Community source project; game files are not included.",
