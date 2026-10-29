@@ -152,6 +152,14 @@
       "stars": 0,
       "url": "https://github.com/ClaudioGodoi/UFC-4-PS4-PORT-LINUX"
     },
+    "crisprintsstuff/knack2-pc-port": {
+      "description": "Native Windows runtime for the PS4 version of Knack II (CUSA08014)",
+      "found_at": "2026-10-29",
+      "pushed_at": "2026-10-29T06:07:37Z",
+      "repo": "crisprintsstuff/knack2-pc-port",
+      "stars": 0,
+      "url": "https://github.com/crisprintsstuff/knack2-pc-port"
+    },
     "cyberheater/rushofblood-pcvr": {
       "description": "A PCVR port of the Classic Rush of Blood PS4 VR game",
       "found_at": "2026-10-25",
@@ -183,6 +191,14 @@
       "repo": "DuarttBR/RGARAGE-HUB-Releases",
       "stars": 0,
       "url": "https://github.com/DuarttBR/RGARAGE-HUB-Releases"
+    },
+    "fate6/goldeneye-ps4": {
+      "description": "GoldenEye 007 PC port for PS4 homebrew (Vulkan on RADV, native 4K on PS4 Pro). Bring your own ROM.",
+      "found_at": "2026-10-29",
+      "pushed_at": "2026-10-28T21:45:35Z",
+      "repo": "fate6/goldeneye-ps4",
+      "stars": 0,
+      "url": "https://github.com/fate6/goldeneye-ps4"
     },
     "fladnag86/driveclub-port-applesilicon": {
       "description": "Driveclub (PS4) native port running on Apple Silicon Macs under Rosetta 2 - fork of BlackLineInteractive/Driveclub-Port with GPU fixes and performance work",
@@ -464,6 +480,14 @@
       "stars": 176,
       "url": "https://github.com/OverkillLabs3/driveclub-recomp"
     },
+    "ozike17/tlou-ps4-port-pc": {
+      "description": "Unofficial port of The Last of Us (PS4, CUSA00552, version 1.00) for Windows and Linux; does not include any game files.",
+      "found_at": "2026-10-29",
+      "pushed_at": "2026-10-29T03:07:03Z",
+      "repo": "oZiKe17/tlou-ps4-port-pc",
+      "stars": 0,
+      "url": "https://github.com/oZiKe17/tlou-ps4-port-pc"
+    },
     "parquepatricense/skate3-recomp-mods": {
       "description": "Modular mod pack for skate3recomp with a Skate 3-style modder: PS3/PS4/PS5, Switch, Xbox Series and Steam Deck button icons, graphics presets, FOV/ultrawide, keyboard and mouse, Rioplatense Spanish and Brazilian Portuguese, and a direct load straight into your save in ~7 s. Requires skate3recomp v2.0.2 and your own copy of Skate 3.",
       "found_at": "2026-10-18",
@@ -503,6 +527,14 @@
       "repo": "Prathewsh/gravityrush_pc",
       "stars": 7,
       "url": "https://github.com/Prathewsh/gravityrush_pc"
+    },
+    "purplegitty/littlebigplanet-3-recompiled": {
+      "description": "Native Windows port of LittleBigPlanet 3 (PS4), built with AI assistance. Runs the game’s own code from your legally owned dump through reimplemented PS4 system libraries and shadPS4’s GPU emulation. No game files included.",
+      "found_at": "2026-10-29",
+      "pushed_at": "2026-10-28T17:13:51Z",
+      "repo": "PurpleGitty/LittleBigPlanet-3-Recompiled",
+      "stars": 0,
+      "url": "https://github.com/PurpleGitty/LittleBigPlanet-3-Recompiled"
     },
     "pyr097/lanoirepcport": {
       "description": "L.A. Noire PS4 version PC Port with shadps4",
@@ -591,6 +623,14 @@
       "repo": "TheNIKITO/LittleBigPlanet-3---PC",
       "stars": 0,
       "url": "https://github.com/TheNIKITO/LittleBigPlanet-3---PC"
+    },
+    "towphy/ncaa-football-14-recomp-ps4": {
+      "description": "NCAA Football 14 Recompiled is a native port of the PS3 version of NCAA Football 14 for Windows and Linux",
+      "found_at": "2026-10-29",
+      "pushed_at": "2026-10-28T22:08:46Z",
+      "repo": "Towphy/NCAA-Football-14-Recomp-PS4",
+      "stars": 0,
+      "url": "https://github.com/Towphy/NCAA-Football-14-Recomp-PS4"
     },
     "vantageex/infamous-first-light-pc": {
       "description": "Unofficial native PC port of inFAMOUS First Light (PS4). Bring your own game dump - no game files included.",
