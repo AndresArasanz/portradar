@@ -80,6 +80,14 @@
       "stars": 0,
       "url": "https://github.com/azaihiryu/sumeragi_recomp"
     },
+    "bc160201983/matterfall-pc-port": {
+      "description": "Matterfall (PS4, CUSA02475) native PC port on the gow3_pc runtime: launcher with all quality/resolution settings, sky-light fix, PKG install. No game files included.",
+      "found_at": "2026-10-30",
+      "pushed_at": "2026-10-30T10:50:37Z",
+      "repo": "bc160201983/Matterfall-PC-port",
+      "stars": 0,
+      "url": "https://github.com/bc160201983/Matterfall-PC-port"
+    },
     "bgbrhrwatchinovo/dusklight-ps4": {
       "description": "Native PS4 port of Dusklight (decomp PC port) – no emulator. Runs on GoldHEN at up to 60 FPS with PlayStation buttons, Wii U style HUD and optional HD textures. No game data or keys included: bring your own GameCube/Wii disc dump; the Setup Studio builds the PS4 package on your PC.",
       "found_at": "2026-10-18",
@@ -311,6 +319,14 @@
       "repo": "iHaiDeeZ/Conker-PS4",
       "stars": 1,
       "url": "https://github.com/iHaiDeeZ/Conker-PS4"
+    },
+    "ihaideez/conkerlr-ps4": {
+      "description": "Conker: Live & Reloaded (Xbox) static recompilation on jailbroken PS4: Mesa RADV, native 60 fps, 1080p, FSR 1, quick menu. Build it from your own disc.",
+      "found_at": "2026-10-30",
+      "pushed_at": "2026-10-29T18:41:20Z",
+      "repo": "iHaiDeeZ/ConkerLR-PS4",
+      "stars": 4,
+      "url": "https://github.com/iHaiDeeZ/ConkerLR-PS4"
     },
     "ihaideez/smw": {
       "description": "SMW: Super Mario Bros. Wonder Recomp on jailbroken PS4 (GoldHEN). Native static recomp, RADV Vulkan, FSR 1, L3+R3 quick menu, 4 players. Bring your own dump.",
@@ -608,6 +624,14 @@
       "stars": 4,
       "url": "https://github.com/schans-arg/UFC4-PC-Port"
     },
+    "skysbed/ps4-windows-games": {
+      "description": "Run PC (Windows) games on a jailbroken PS4 — Wine, ported to OrbisOS",
+      "found_at": "2026-10-30",
+      "pushed_at": "2026-10-29T13:20:57Z",
+      "repo": "Skysbed/ps4-windows-games",
+      "stars": 0,
+      "url": "https://github.com/Skysbed/ps4-windows-games"
+    },
     "szdtkk/yakuza-kiwami-ptbr-ps4": {
       "description": "Port simples da tradução PT-BR do Yakuza Kiwami (PC → PS4)",
       "found_at": "2026-10-18",
@@ -647,6 +671,14 @@
       "repo": "vascon-es/lego-dimensions-pc",
       "stars": 6,
       "url": "https://github.com/vascon-es/lego-dimensions-pc"
+    },
+    "wendersky/unicorn-overlord-ptbr": {
+      "description": "Tradução PT-BR de Unicorn Overlord (recomp PC do PS4) — tradução de _Kiri_ adaptada para PC / Steam Deck",
+      "found_at": "2026-10-30",
+      "pushed_at": "2026-10-30T05:45:29Z",
+      "repo": "WenderSky/unicorn-overlord-ptbr",
+      "stars": 0,
+      "url": "https://github.com/WenderSky/unicorn-overlord-ptbr"
     },
     "wie-project/ps4recomp": {
       "description": "Experimental  macOS Apple Silicon first recompiler of PS4 programs",
