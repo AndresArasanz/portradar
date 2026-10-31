@@ -352,6 +352,14 @@
       "stars": 3,
       "url": "https://github.com/iHaiDeeZ/TOTK-PS4"
     },
+    "ihaideez/ttt2-ps4": {
+      "description": "Tekken Tag Tournament 2 (Xbox 360 static recomp) running natively on jailbroken PS4 - build scripts and patches, bring your own game",
+      "found_at": "2026-10-31",
+      "pushed_at": "2026-10-30T22:13:34Z",
+      "repo": "iHaiDeeZ/TTT2-PS4",
+      "stars": 2,
+      "url": "https://github.com/iHaiDeeZ/TTT2-PS4"
+    },
     "indrasundanese/kamenrider-moh-pc": {
       "description": "Native port Kamen Rider Memory of Heroez (PS4) untuk PC — masih dalam tahap development (WIP).",
       "found_at": "2026-10-24",
