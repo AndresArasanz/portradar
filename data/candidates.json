@@ -480,6 +480,14 @@
       "stars": 10,
       "url": "https://github.com/nakaionyt/ShadowOfTheColossus-PC-FrameGen"
     },
+    "neiove/sonic-unleashed-recompiled-ps4": {
+      "description": "",
+      "found_at": "2026-11-02",
+      "pushed_at": "2026-11-02T03:00:45Z",
+      "repo": "neiove/Sonic-Unleashed-Recompiled-Ps4",
+      "stars": 4,
+      "url": "https://github.com/neiove/Sonic-Unleashed-Recompiled-Ps4"
+    },
     "nichlasek/avp-ps4": {
       "description": "Native Aliens versus Predator (1999) source port for PS4 / OpenOrbis. Bring your own game data.",
       "found_at": "2026-10-18",
@@ -592,6 +600,14 @@
       "stars": 0,
       "url": "https://github.com/quovix/port-RMGE01-ps4-from-wii"
     },
+    "ravencaio/tlou-remastered-pc": {
+      "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
+      "found_at": "2026-11-02",
+      "pushed_at": "2026-11-01T21:54:24Z",
+      "repo": "ravencaio/tlou-remastered-pc",
+      "stars": 75,
+      "url": "https://github.com/ravencaio/tlou-remastered-pc"
+    },
     "razzconnect/basara4-native-pc": {
       "description": "Sengoku Basara 4 Sumeragi Native PC Port & Launcher. Direct x86-64 CPU Execution, Re-implemented PS4 System Contracts & Vulkan Translation by Razz",
       "found_at": "2026-10-24",
@@ -615,6 +631,22 @@
       "repo": "saulob/odin-sphere-leifthrasir-pc",
       "stars": 45,
       "url": "https://github.com/saulob/odin-sphere-leifthrasir-pc"
+    },
+    "sausage88/css-ps4": {
+      "description": "Native port CSS on PS4",
+      "found_at": "2026-11-02",
+      "pushed_at": "2026-11-01T23:38:57Z",
+      "repo": "sausage88/CSS-PS4",
+      "stars": 0,
+      "url": "https://github.com/sausage88/CSS-PS4"
+    },
+    "sausage88/orangebox-ps4": {
+      "description": "Native port HL2 on PS4",
+      "found_at": "2026-11-02",
+      "pushed_at": "2026-11-02T13:21:02Z",
+      "repo": "sausage88/OrangeBox-PS4",
+      "stars": 0,
+      "url": "https://github.com/sausage88/OrangeBox-PS4"
     },
     "schans-arg/nhl24-pc-port": {
       "description": "Experimental PS4-to-PC port of NHL 24. Community source project; game files are not included.",
