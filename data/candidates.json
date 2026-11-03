@@ -104,6 +104,14 @@
       "stars": 78,
       "url": "https://github.com/BlackLineInteractive/Driveclub-Port"
     },
+    "bloodborne-native/bbcpu": {
+      "description": "Runs x86-64 PS4 game code on arm64: interpreter, translator and recompiled-code runtime",
+      "found_at": "2026-11-03",
+      "pushed_at": "2026-11-02T15:49:08Z",
+      "repo": "bloodborne-native/bbcpu",
+      "stars": 0,
+      "url": "https://github.com/bloodborne-native/bbcpu"
+    },
     "bloodborne-native/bloodborne-recomp": {
       "description": "A static recompiler for Bloodborne (PS4): turns your own copy of the game's code into native C. With bbcpu, an x86-64 interpreter and arm64 translator.",
       "found_at": "2026-10-18",
@@ -399,6 +407,14 @@
       "repo": "jpthebaby/GOW3-PS4-Remastered-Modding-Tool-Blender-Addon",
       "stars": 0,
       "url": "https://github.com/jpthebaby/GOW3-PS4-Remastered-Modding-Tool-Blender-Addon"
+    },
+    "ksofccs/aooni-ps4": {
+      "description": "Native Ao Oni port for PlayStation 4. Featuring four language options, custom PS4 implementation and controller support.",
+      "found_at": "2026-11-03",
+      "pushed_at": "2026-11-02T14:32:56Z",
+      "repo": "KSOFCCS/AoOni-PS4",
+      "stars": 1,
+      "url": "https://github.com/KSOFCCS/AoOni-PS4"
     },
     "lagazyt/lz-launcher": {
       "description": "Biblioteca e launcher para jogos recompilados (ports de PS4, PS3 e Xbox) e jogos de PC, com capas automáticas, tempo de jogo e atualização automática - criado por Lagaz",
@@ -751,6 +767,14 @@
       "repo": "YoavAharonOfficial/Recomp-to-PS4-FPKG",
       "stars": 0,
       "url": "https://github.com/YoavAharonOfficial/Recomp-to-PS4-FPKG"
+    },
+    "zornetta/ufc3-multiplayer-setup-guide": {
+      "description": "Complete setup and multiplayer troubleshooting guide for EA SPORTS UFC 3 native PS4 PC port",
+      "found_at": "2026-11-03",
+      "pushed_at": "2026-11-02T14:14:44Z",
+      "repo": "Zornetta/ufc3-multiplayer-setup-guide",
+      "stars": 0,
+      "url": "https://github.com/Zornetta/ufc3-multiplayer-setup-guide"
     },
     "zuancrisp/spartanport": {
       "description": "SpartanPort: unofficial PC port of God of War III Remastered (PS4) for Windows and Linux (AppImage). Original x86-64 code runs directly on the CPU with a custom runtime; graphics use shadPS4's Vulkan video core. Launcher, in-game menu, controller icons and up to 240 FPS. Requires your own game dump. No game files included.",
