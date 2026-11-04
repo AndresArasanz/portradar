@@ -376,6 +376,14 @@
       "stars": 0,
       "url": "https://github.com/indrasundanese/KamenRider-MoH-PC"
     },
+    "indrasundanese/kamenrider-recomp-pc": {
+      "description": "Recompile Kamen Rider Launcher (PS4) untuk PC — masih dalam tahap development (test).",
+      "found_at": "2026-11-04",
+      "pushed_at": "2026-11-04T07:11:24Z",
+      "repo": "indrasundanese/KamenRider-Recomp-PC",
+      "stars": 4,
+      "url": "https://github.com/indrasundanese/KamenRider-Recomp-PC"
+    },
     "ioritree/kyoei_toshi_pc": {
       "description": "Native Windows port of the PS4 version of City Shrouded in Shadow (巨影都市), built on hachi23/unicorn_overlord_pc. No game files included.",
       "found_at": "2026-10-22",
