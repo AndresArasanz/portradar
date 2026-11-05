@@ -200,6 +200,14 @@
       "stars": 0,
       "url": "https://github.com/drakenabarion/virtualon_pc"
     },
+    "dsxmello/triaevumps4": {
+      "description": "Native PS4 port of TriAevum (Ocarina of Time 3D AOT recompilation): install the pkg, send your ROM over FTP, the console prepares the game.",
+      "found_at": "2026-11-05",
+      "pushed_at": "2026-11-05T04:12:20Z",
+      "repo": "dsxmello/TriAevumPS4",
+      "stars": 0,
+      "url": "https://github.com/dsxmello/TriAevumPS4"
+    },
     "duarttbr/rgarage-hub-releases": {
       "description": "RGARAGE HUB — todos os ports e recompilações de jogos num hub só, com cara de console · every game port and recompilation in one console-style hub (downloads)",
       "found_at": "2026-10-26",
@@ -279,6 +287,14 @@
       "repo": "guzuold/CTRNativePorted",
       "stars": 3,
       "url": "https://github.com/guzuold/CTRNativePorted"
+    },
+    "heslermoradel-design/fifa_world_cup_2010_ps4": {
+      "description": "Port nativo del juego 2010 FIFA World Cup South Africa para PlayStation 4 basado en el proyecto de recompilación de PC.",
+      "found_at": "2026-11-05",
+      "pushed_at": "2026-11-05T05:07:37Z",
+      "repo": "heslermoradel-design/Fifa_World_Cup_2010_PS4",
+      "stars": 1,
+      "url": "https://github.com/heslermoradel-design/Fifa_World_Cup_2010_PS4"
     },
     "heyzerr/shadowofthecolossus-pc": {
       "description": "AVX2 FIX Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - Port nativo para PC.",
