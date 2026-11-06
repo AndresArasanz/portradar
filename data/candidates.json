@@ -200,6 +200,14 @@
       "stars": 0,
       "url": "https://github.com/drakenabarion/virtualon_pc"
     },
+    "dsxmello/savagewindps4": {
+      "description": "Savage Wind Recomp (static recompilation of BotW 1.8.2) ported to the PS4 (GoldHEN): OpenOrbis, Mesa RADV on GNM, SDL3",
+      "found_at": "2026-11-06",
+      "pushed_at": "2026-11-06T11:18:03Z",
+      "repo": "dsxmello/SavageWindPS4",
+      "stars": 0,
+      "url": "https://github.com/dsxmello/SavageWindPS4"
+    },
     "dsxmello/triaevumps4": {
       "description": "Native PS4 port of TriAevum (Ocarina of Time 3D AOT recompilation): install the pkg, send your ROM over FTP, the console prepares the game.",
       "found_at": "2026-11-05",
