@@ -224,6 +224,14 @@
       "stars": 0,
       "url": "https://github.com/DuarttBR/RGARAGE-HUB-Releases"
     },
+    "emiibytee/np2kai-ps4": {
+      "description": "Native NP2kai port for PlayStation 4 with a custom frontend, game library, full controller remapping, save states, USB keyboard support and diagnostics.",
+      "found_at": "2026-11-07",
+      "pushed_at": "2026-11-07T00:33:24Z",
+      "repo": "EmiiBytee/np2kai-ps4",
+      "stars": 5,
+      "url": "https://github.com/EmiiBytee/np2kai-ps4"
+    },
     "fate6/goldeneye-ps4": {
       "description": "GoldenEye 007 PC port for PS4 homebrew (Vulkan on RADV, native 4K on PS4 Pro). Bring your own ROM.",
       "found_at": "2026-10-29",
@@ -440,6 +448,14 @@
       "stars": 0,
       "url": "https://github.com/jpthebaby/GOW3-PS4-Remastered-Modding-Tool-Blender-Addon"
     },
+    "kitaaaaaa/toarumajutsuvirtualon-recomp": {
+      "description": "Recompilation project for A Certain Magical Virtual-On M.S.B.S. Ver. 55.55 (PS4)",
+      "found_at": "2026-11-07",
+      "pushed_at": "2026-11-07T02:13:38Z",
+      "repo": "kitaaaaaa/ToaruMajutsuVirtualOn-recomp",
+      "stars": 0,
+      "url": "https://github.com/kitaaaaaa/ToaruMajutsuVirtualOn-recomp"
+    },
     "ksofccs/aooni-ps4": {
       "description": "Native Ao Oni port for PlayStation 4. Featuring four language options, custom PS4 implementation and controller support.",
       "found_at": "2026-11-03",
@@ -519,6 +535,14 @@
       "repo": "momochan32/ctr-on-mac",
       "stars": 0,
       "url": "https://github.com/momochan32/ctr-on-mac"
+    },
+    "nabiscan58/wwhd-recomp-ps4-port": {
+      "description": "A PS4 Port of the WWHD Recomp project for PC.",
+      "found_at": "2026-11-07",
+      "pushed_at": "2026-11-07T06:25:41Z",
+      "repo": "Nabiscan58/WWHD-Recomp-PS4-Port",
+      "stars": 2,
+      "url": "https://github.com/Nabiscan58/WWHD-Recomp-PS4-Port"
     },
     "nakaionyt/shadowofthecolossus-pc-framegen": {
       "description": "Shadow of the Colossus (PS4) native PC port with DLSS-G / FSR 3 frame generation: 30 FPS locked, 60 shown. F7 uncaps live. Bring your own game files.",
