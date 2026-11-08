@@ -224,6 +224,22 @@
       "stars": 0,
       "url": "https://github.com/DuarttBR/RGARAGE-HUB-Releases"
     },
+    "elisesurmounted381/elisesurmounted381.github.io": {
+      "description": "Play P.T., the 2014 PS4 teaser by Kojima Productions, as a native PC port for Windows, Linux and macOS.",
+      "found_at": "2026-11-08",
+      "pushed_at": "2026-11-08T07:16:36Z",
+      "repo": "elisesurmounted381/elisesurmounted381.github.io",
+      "stars": 0,
+      "url": "https://github.com/elisesurmounted381/elisesurmounted381.github.io"
+    },
+    "elisesurmounted381/pt-pc": {
+      "description": "Play P.T., the 2014 PS4 teaser by Kojima Productions, natively on Windows, Linux, and macOS with this PC port.",
+      "found_at": "2026-11-08",
+      "pushed_at": "2026-11-08T07:13:32Z",
+      "repo": "elisesurmounted381/pt-pc",
+      "stars": 0,
+      "url": "https://github.com/elisesurmounted381/pt-pc"
+    },
     "emiibytee/np2kai-ps4": {
       "description": "Native NP2kai port for PlayStation 4 with a custom frontend, game library, full controller remapping, save states, USB keyboard support and diagnostics.",
       "found_at": "2026-11-07",
@@ -343,6 +359,14 @@
       "repo": "IgorAugustoHH/The-Order-1886-PC-Port",
       "stars": 12,
       "url": "https://github.com/IgorAugustoHH/The-Order-1886-PC-Port"
+    },
+    "ihabfawaqa-hue/gow3-apple-silicon-native": {
+      "description": "Experimental native Apple Silicon macOS port of God of War III Remastered (PS4). ARM64 recompilation, Vulkan to Metal. Bring your own game dump.",
+      "found_at": "2026-11-08",
+      "pushed_at": "2026-11-07T11:50:06Z",
+      "repo": "ihabfawaqa-hue/GOW3-APPLE-SILICON-NATIVE",
+      "stars": 0,
+      "url": "https://github.com/ihabfawaqa-hue/GOW3-APPLE-SILICON-NATIVE"
     },
     "ihaideez/botw": {
       "description": "BOTW: The Legend of Zelda: Breath of the Wild recomp on jailbroken PS4 (GoldHEN). Native static recomp, NVN replayed on Vulkan through RADV. Bring your own game.",
@@ -688,6 +712,14 @@
       "stars": 14,
       "url": "https://github.com/razzconnect/basara4-native-pc"
     },
+    "rcostanza/resogun-recomp": {
+      "description": "Resogun (PS4) - Recompiled to PC",
+      "found_at": "2026-11-08",
+      "pushed_at": "2026-11-08T11:34:40Z",
+      "repo": "rcostanza/resogun-recomp",
+      "stars": 0,
+      "url": "https://github.com/rcostanza/resogun-recomp"
+    },
     "samuel-sslabs/port-integration": {
       "description": "Buscador e catálogo unificado de ports nativos, decompilações e recompilações estáticas de consoles para PC (PS5, PS4, Switch, Xbox 360, N64 e clássicos), com rastreamento em tempo real de releases do GitHub.",
       "found_at": "2026-10-18",
@@ -783,6 +815,14 @@
       "repo": "vascon-es/lego-dimensions-pc",
       "stars": 6,
       "url": "https://github.com/vascon-es/lego-dimensions-pc"
+    },
+    "vladz97/fifa16_mac_port": {
+      "description": "Unofficial: FIFA 16 (PS4) on Apple Silicon at 60 fps - native Metal renderer and GPU host for shadPS4, fork of bloodborne_mac_port. Releases carry F16.app. No game files.",
+      "found_at": "2026-11-08",
+      "pushed_at": "2026-11-07T15:35:31Z",
+      "repo": "VladZ97/fifa16_mac_port",
+      "stars": 0,
+      "url": "https://github.com/VladZ97/fifa16_mac_port"
     },
     "wendersky/unicorn-overlord-ptbr": {
       "description": "Tradução PT-BR de Unicorn Overlord (recomp PC do PS4) — tradução de _Kiri_ adaptada para PC / Steam Deck",
