@@ -184,6 +184,14 @@
       "stars": 1,
       "url": "https://github.com/cyberheater/RushOfBlood-PCVR"
     },
+    "darkuni/super-stardust-ultra-recomp": {
+      "description": "A recompilation of a PS4 game.",
+      "found_at": "2026-11-10",
+      "pushed_at": "2026-11-10T04:11:51Z",
+      "repo": "darkuni/super-stardust-ultra-recomp",
+      "stars": 1,
+      "url": "https://github.com/darkuni/super-stardust-ultra-recomp"
+    },
     "datemasanaga/driveclub-port-applesilicon-zh-cn": {
       "description": "Driveclub (PS4, Simplified Chinese) native port running on Apple Silicon Macs under Rosetta 2 - fork of BlackLineInteractive/Driveclub-Port with GPU fixes and performance work",
       "found_at": "2026-10-24",
@@ -191,6 +199,14 @@
       "repo": "DateMasanaga/Driveclub-Port-AppleSilicon-zh-CN",
       "stars": 0,
       "url": "https://github.com/DateMasanaga/Driveclub-Port-AppleSilicon-zh-CN"
+    },
+    "davybirth/kyoei-toshi": {
+      "description": "Kyoei Toshi preservation, English/pt-BR fan translation and experimental PC port. Requires your own PS4 disc dump; no game files included.",
+      "found_at": "2026-11-10",
+      "pushed_at": "2026-11-09T23:27:38Z",
+      "repo": "DavyBirth/kyoei-toshi",
+      "stars": 0,
+      "url": "https://github.com/DavyBirth/kyoei-toshi"
     },
     "drakenabarion/virtualon_pc": {
       "description": "Cyber Troopers Virtual-On Masterpiece 1995-2001 (PS4) running natively on Linux. Built on the Uncharted and Bloodborne PC ports and the shadPS4 renderer. Bring your own dump.",
@@ -735,6 +751,14 @@
       "repo": "razzconnect/basara4-native-pc",
       "stars": 14,
       "url": "https://github.com/razzconnect/basara4-native-pc"
+    },
+    "rcostanza/deception-iv-nightmareprincess-recomp": {
+      "description": "Deception IV: The Nightmare Princess (PS4) - Recompiled to PC",
+      "found_at": "2026-11-10",
+      "pushed_at": "2026-11-09T21:25:00Z",
+      "repo": "rcostanza/Deception-IV-NightmarePrincess-recomp",
+      "stars": 14,
+      "url": "https://github.com/rcostanza/Deception-IV-NightmarePrincess-recomp"
     },
     "rcostanza/resogun-recomp": {
       "description": "Resogun (PS4) - Recompiled to PC",

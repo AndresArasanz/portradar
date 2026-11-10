@@ -5,13 +5,13 @@
       "fork": false,
       "fork_of": null,
       "missing": false,
-      "pushed_at": "2026-11-06T01:34:13Z",
-      "release_date": "2026-11-06",
-      "release_tag": "v0.72.2",
+      "pushed_at": "2026-11-10T03:33:39Z",
+      "release_date": "2026-11-10",
+      "release_tag": "v0.74",
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1415622546,
-      "stars": 1812,
+      "stars": 1828,
       "status_changed_at": "2026-10-21",
       "status_text": "the game can be finished from start to end (v0.60.3: played through the last colossus, the ending and the credits, with high quality textures, PS4 Pro mode and 60 FPS on)."
     },
@@ -20,13 +20,13 @@
       "fork": false,
       "fork_of": null,
       "missing": false,
-      "pushed_at": "2026-10-29T20:44:40Z",
-      "release_date": "2026-10-29",
-      "release_tag": "v1.3.8",
+      "pushed_at": "2026-11-10T13:03:34Z",
+      "release_date": "2026-11-10",
+      "release_tag": "v1.4.0",
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1416121528,
-      "stars": 237,
+      "stars": 239,
       "status_changed_at": null,
       "status_text": null
     },
@@ -41,7 +41,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1399236672,
-      "stars": 3978,
+      "stars": 3985,
       "status_changed_at": "2026-10-29",
       "status_text": "experimental, playable. The game boots, loads saves and plays (the Hunter's Dream and several areas of Yharnam were played with it) with sound, gamepad and saving. A full play-through has not been verified. Tested thoroughly: AMD Radeon RX 7800 XT (Linux with Mesa/RADV, and…"
     },
@@ -56,7 +56,7 @@
       "renamed_to": "FelipePrado0/SpartanPort",
       "replaced": false,
       "repo_id": 1409580064,
-      "stars": 4734,
+      "stars": 4754,
       "status_changed_at": null,
       "status_text": null
     },
@@ -86,7 +86,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1419442607,
-      "stars": 249,
+      "stars": 253,
       "status_changed_at": "2026-10-20",
       "status_text": "Current release: 0.1.9 (notes). What's new since 0.1.6:"
     },
@@ -95,13 +95,13 @@
       "fork": false,
       "fork_of": null,
       "missing": false,
-      "pushed_at": "2026-11-09T12:30:41Z",
+      "pushed_at": "2026-11-09T22:46:08Z",
       "release_date": "2026-11-09",
-      "release_tag": "v1.5.0",
+      "release_tag": "v1.5.1",
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1416842013,
-      "stars": 227,
+      "stars": 232,
       "status_changed_at": null,
       "status_text": null
     },
@@ -116,7 +116,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1417228030,
-      "stars": 182,
+      "stars": 181,
       "status_changed_at": null,
       "status_text": "Boot, abertura com créditos e legendas: ✅ Funciona · Título, menu e gameplay: ✅ 30 FPS, 1080p nativo · Áudio: ✅ Com o libSceNgs2.sprx do firmware do seu console + Audio3d reimplementado · Idioma: ✅ Escolhido no launcher (legendas e menus em português testados) · Controle: ✅…"
     },
@@ -131,7 +131,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1418054191,
-      "stars": 1138,
+      "stars": 1147,
       "status_changed_at": "2026-10-21",
       "status_text": "Boot, title, intro and gameplay: ✅ Works; tested up to \"Go to Longhouse\", with climbing, running, powers and cutscenes · Motion sensor (graffiti, motion prompts): ✅ Real gyro, or simulated on any controller and the keyboard · Drain smoke, drones and GPU particles: ✅ With…"
     },
@@ -146,7 +146,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1416366647,
-      "stars": 568,
+      "stars": 569,
       "status_changed_at": null,
       "status_text": "Boot, menu, intro e gameplay: ✅ Funciona; sessões de 10+ minutos sem falhas · Imagem: ✅ Nativa, 1080p, sem tremores; SMAA, RCAS/CAS e ajustes de cor opcionais · Áudio: ✅ Com o libSceNgs2.sprx do firmware do seu console · Controle: ✅ DualSense, DualShock 4, Xbox e 8BitDo via…"
     },
@@ -161,7 +161,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1408557215,
-      "stars": 2442,
+      "stars": 2450,
       "status_changed_at": null,
       "status_text": null
     },
@@ -191,7 +191,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1418803345,
-      "stars": 395,
+      "stars": 405,
       "status_changed_at": null,
       "status_text": null
     },
@@ -206,7 +206,7 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1407727187,
-      "stars": 5279,
+      "stars": 5303,
       "status_changed_at": null,
       "status_text": null
     },
@@ -221,10 +221,10 @@
       "renamed_to": null,
       "replaced": false,
       "repo_id": 1419982962,
-      "stars": 2241,
+      "stars": 2255,
       "status_changed_at": null,
       "status_text": null
     }
   },
-  "updated_at": "2026-11-09T13:52:14Z"
+  "updated_at": "2026-11-10T13:27:01Z"
 }
