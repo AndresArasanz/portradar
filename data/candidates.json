@@ -776,6 +776,14 @@
       "stars": 14,
       "url": "https://github.com/razzconnect/basara4-native-pc"
     },
+    "rcostanza/dead-nation-ps4-recomp": {
+      "description": "Dead Nation (PS4) - Recompiled to PC",
+      "found_at": "2026-11-13",
+      "pushed_at": "2026-11-12T23:47:04Z",
+      "repo": "rcostanza/dead-nation-ps4-recomp",
+      "stars": 24,
+      "url": "https://github.com/rcostanza/dead-nation-ps4-recomp"
+    },
     "rcostanza/deception-iv-nightmareprincess-recomp": {
       "description": "Deception IV: The Nightmare Princess (PS4) - Recompiled to PC",
       "found_at": "2026-11-10",
@@ -791,6 +799,14 @@
       "repo": "rcostanza/resogun-recomp",
       "stars": 0,
       "url": "https://github.com/rcostanza/resogun-recomp"
+    },
+    "robertoqimin/battride-war-sousei-port": {
+      "description": "Native PC port of Kamen Rider: Battride War Genesis (PS4) - fork of bbport. No game files included.",
+      "found_at": "2026-11-13",
+      "pushed_at": "2026-11-13T01:23:54Z",
+      "repo": "robertoqimin/battride-war-sousei-port",
+      "stars": 0,
+      "url": "https://github.com/robertoqimin/battride-war-sousei-port"
     },
     "samuel-sslabs/port-integration": {
       "description": "Buscador e catálogo unificado de ports nativos, decompilações e recompilações estáticas de consoles para PC (PS5, PS4, Switch, Xbox 360, N64 e clássicos), com rastreamento em tempo real de releases do GitHub.",
@@ -888,6 +904,14 @@
       "stars": 0,
       "url": "https://github.com/TheNIKITO/LittleBigPlanet-3---PC"
     },
+    "thezappster99/rac-rs-ps4-port": {
+      "description": "Stopped experiment: rac-rs (Ratchet & Clank PC port) on a jailbroken PS4. Very unlikely to continue. Nothing disc-derived included.",
+      "found_at": "2026-11-13",
+      "pushed_at": "2026-11-12T16:30:09Z",
+      "repo": "TheZappster99/rac-rs-ps4-port",
+      "stars": 0,
+      "url": "https://github.com/TheZappster99/rac-rs-ps4-port"
+    },
     "towphy/ncaa-football-14-recomp-ps4": {
       "description": "NCAA Football 14 Recompiled is a native port of the PS3 version of NCAA Football 14 for Windows and Linux",
       "found_at": "2026-10-29",
@@ -911,6 +935,14 @@
       "repo": "vascon-es/lego-dimensions-pc",
       "stars": 6,
       "url": "https://github.com/vascon-es/lego-dimensions-pc"
+    },
+    "victorgbd/mlb_pc": {
+      "description": "Unofficial native Windows port of MLB The Show 24 (PS4): runs the original game code on PC with a Vulkan renderer, a launcher and controller/keyboard support. Bring your own legally obtained copy; no game files included. Not affiliated with Sony or MLB.",
+      "found_at": "2026-11-13",
+      "pushed_at": "2026-11-13T01:10:07Z",
+      "repo": "victorgbd/mlb_pc",
+      "stars": 0,
+      "url": "https://github.com/victorgbd/mlb_pc"
     },
     "vladz97/fifa16_mac_port": {
       "description": "Unofficial: FIFA 16 (PS4) on Apple Silicon at 60 fps - native Metal renderer and GPU host for shadPS4, fork of bloodborne_mac_port. Releases carry F16.app. No game files.",
@@ -959,6 +991,14 @@
       "repo": "YoavAharonOfficial/Recomp-to-PS4-FPKG",
       "stars": 0,
       "url": "https://github.com/YoavAharonOfficial/Recomp-to-PS4-FPKG"
+    },
+    "ziran123lst/divaft_android": {
+      "description": "Hatsune Miku Project DIVA Future Tone DX (PS4) native Android/ARM64 port - original implementation",
+      "found_at": "2026-11-13",
+      "pushed_at": "2026-11-13T12:50:29Z",
+      "repo": "Ziran123lst/divaft_Android",
+      "stars": 0,
+      "url": "https://github.com/Ziran123lst/divaft_Android"
     },
     "zornetta/ufc3-multiplayer-setup-guide": {
       "description": "Complete setup and multiplayer troubleshooting guide for EA SPORTS UFC 3 native PS4 PC port",
