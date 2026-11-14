@@ -1,5 +1,13 @@
 {
   "candidates": {
+    "0xdhx0/star-ocean-5-ps4-ptbr": {
+      "description": "Tradução PT-BR de fã do Star Ocean: Integrity and Faithlessness (recompilação PS4RT no PC, PS4 e PS5; base europeia CUSA03219). Instalador Windows/Linux, duas versões: Nomes Traduzidos e Nomes Originais.",
+      "found_at": "2026-11-14",
+      "pushed_at": "2026-11-09T02:14:28Z",
+      "repo": "0xdhx0/star-ocean-5-ps4-ptbr",
+      "stars": 0,
+      "url": "https://github.com/0xdhx0/star-ocean-5-ps4-ptbr"
+    },
     "abdelmoumendeghbouche/knack_pc": {
       "description": "Native PC port of Knack (PS4): the game's own x86-64 code runs on the PC, with a PS4 runtime and the shadPS4 Vulkan video core. No emulator.",
       "found_at": "2026-10-23",
@@ -432,6 +440,14 @@
       "stars": 5,
       "url": "https://github.com/iHaiDeeZ/SMW"
     },
+    "ihaideez/spacecadetpinball-ps4": {
+      "description": "Space Cadet Pinball (3D Pinball for Windows) native port for jailbroken PS4: DualShock 4 controls, console pause menu, 1080p/720p, MIDI music",
+      "found_at": "2026-11-14",
+      "pushed_at": "2026-11-14T03:41:16Z",
+      "repo": "iHaiDeeZ/SpaceCadetPinball-PS4",
+      "stars": 2,
+      "url": "https://github.com/iHaiDeeZ/SpaceCadetPinball-PS4"
+    },
     "ihaideez/ssbu": {
       "description": "SSBU: Super Smash Bros. Ultimate recomp (WindowSmash) on jailbroken PS4 (GoldHEN): native AArch64-to-C recomp, Direct3D 11 through DXVK on RADV, FSR 1, L3+R3 menu, 4 players. Bring your own dump.",
       "found_at": "2026-10-23",
@@ -535,6 +551,14 @@
       "repo": "LagazYT/lz-launcher",
       "stars": 0,
       "url": "https://github.com/LagazYT/lz-launcher"
+    },
+    "lapothecary/bloodborne-pc-vulkan": {
+      "description": "Bloodborne (v1.09) on Windows & Linux with a decompiled C++20 graphics engine & direct Vulkan 1.3 renderer (built on bbport): native GLSL shaders, ~3–5 GB VRAM, draw batching/culling, in-game PC menus, DLSS 4.5 / FSR 4. Bring your own dump.",
+      "found_at": "2026-11-14",
+      "pushed_at": "2026-11-13T11:20:21Z",
+      "repo": "lapothecary/bloodborne-pc-vulkan",
+      "stars": 0,
+      "url": "https://github.com/lapothecary/bloodborne-pc-vulkan"
     },
     "lxnis/order1886-pc": {
       "description": "Experimental native Windows port of The Order: 1886 (PS4, CUSA00035 v01.02). Own game dump required, no game files included. GPL-2.0-or-later.",
@@ -800,6 +824,14 @@
       "stars": 0,
       "url": "https://github.com/rcostanza/resogun-recomp"
     },
+    "rhobiusvoid/noisyfairy-gbocf-ps4rt-windows": {
+      "description": "NoisyFairy is a port of Code Fairy for PC. Based on PS4RT.",
+      "found_at": "2026-11-14",
+      "pushed_at": "2026-11-14T12:06:30Z",
+      "repo": "rhobiusvoid/NoisyFairy-GBOCF-PS4RT-Windows",
+      "stars": 1,
+      "url": "https://github.com/rhobiusvoid/NoisyFairy-GBOCF-PS4RT-Windows"
+    },
     "robertoqimin/battride-war-sousei-port": {
       "description": "Native PC port of Kamen Rider: Battride War Genesis (PS4) - fork of bbport. No game files included.",
       "found_at": "2026-11-13",
@@ -823,6 +855,14 @@
       "repo": "saulob/13-sentinels-aegis-rim-pc",
       "stars": 51,
       "url": "https://github.com/saulob/13-sentinels-aegis-rim-pc"
+    },
+    "saulob/alienation-pc": {
+      "description": "Alienation PS4 running natively on Windows and Linux/Steam Deck with Vulkan, 4K, True Ultrawide, high-refresh presentation, local and online co-op for up to 4 players",
+      "found_at": "2026-11-14",
+      "pushed_at": "2026-11-13T22:13:46Z",
+      "repo": "saulob/alienation-pc",
+      "stars": 6,
+      "url": "https://github.com/saulob/alienation-pc"
     },
     "saulob/odin-sphere-leifthrasir-pc": {
       "description": "Odin Sphere Leifthrasir native PC port for Windows, with direct PS4 PKG installation, TRG launcher and modern graphics options",
@@ -919,6 +959,14 @@
       "repo": "Towphy/NCAA-Football-14-Recomp-PS4",
       "stars": 0,
       "url": "https://github.com/Towphy/NCAA-Football-14-Recomp-PS4"
+    },
+    "uomar8/pcsx_rearmed-ps4": {
+      "description": "PCSX-ReARMed PS1 emulator ported to PS4 with OpenOrbis and Piglet OpenGL ES 2.0 GPU rendering",
+      "found_at": "2026-11-14",
+      "pushed_at": "2026-11-14T11:16:14Z",
+      "repo": "uomar8/pcsx_rearmed-ps4",
+      "stars": 0,
+      "url": "https://github.com/uomar8/pcsx_rearmed-ps4"
     },
     "vantageex/infamous-first-light-pc": {
       "description": "Unofficial native PC port of inFAMOUS First Light (PS4). Bring your own game dump - no game files included.",
