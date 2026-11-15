@@ -24,6 +24,14 @@
       "stars": 1,
       "url": "https://github.com/AbdelmoumenDeghbouche/wipeout_pc"
     },
+    "acgnnsj/summon-night-6-pc": {
+      "description": "Experimental native Windows port of Summon Night 6: Lost Borders (PS4 CUSA04105 Chinese 1.00) — the game executable runs on x86-64 with an HLE PS4 runtime and vendored shadPS4 GPU core. Boots to title, menu works.",
+      "found_at": "2026-11-15",
+      "pushed_at": "2026-11-15T11:01:23Z",
+      "repo": "ACGNnsj/summon-night-6-pc",
+      "stars": 0,
+      "url": "https://github.com/ACGNnsj/summon-night-6-pc"
+    },
     "alechurri/2ship2harkinian-ps4": {
       "description": "Majora's Mask (2 Ship 2 Harkinian 5.0.1) native port for jailbroken PS4 — build scripts, patches, docs and releases",
       "found_at": "2026-10-18",
@@ -200,6 +208,22 @@
       "stars": 0,
       "url": "https://github.com/crisprintsstuff/knack2-pc-port"
     },
+    "crownparkcomputing/resogun-recomp": {
+      "description": "Resogun (PS4) recompiled to PC - fork that installs straight from a .pkg and plays DLC-unlocker eboots",
+      "found_at": "2026-11-15",
+      "pushed_at": "2026-11-14T14:35:36Z",
+      "repo": "CrownParkComputing/resogun-recomp",
+      "stars": 0,
+      "url": "https://github.com/CrownParkComputing/resogun-recomp"
+    },
+    "crownparkcomputing/tempest4000-recomp": {
+      "description": "Tempest 4000 (PS4, CUSA09856) on PC - work in progress, built on resogun-recomp. Does not play yet: see PORTING.md",
+      "found_at": "2026-11-15",
+      "pushed_at": "2026-11-14T17:02:37Z",
+      "repo": "CrownParkComputing/tempest4000-recomp",
+      "stars": 0,
+      "url": "https://github.com/CrownParkComputing/tempest4000-recomp"
+    },
     "cyberheater/rushofblood-pcvr": {
       "description": "A PCVR port of the Classic Rush of Blood PS4 VR game",
       "found_at": "2026-10-25",
@@ -231,6 +255,14 @@
       "repo": "DavyBirth/kyoei-toshi",
       "stars": 0,
       "url": "https://github.com/DavyBirth/kyoei-toshi"
+    },
+    "dishhsish-del/op3-pc-port-incomplete": {
+      "description": "One Piece Pirate Warriors 3 PS4→PC Native Port — D3D11 backend, VEH syscall interception, ELF loader with PS4 library reimplementations. Current blocker: PLTGOT imports unresolved (0/52) — fix is rewriting ResolveModuleImports() to use import order from op3_imports_mapped.json. See README.md for more info",
+      "found_at": "2026-11-15",
+      "pushed_at": "2026-11-14T18:22:10Z",
+      "repo": "dishhsish-del/OP3-PC-PORT-Incomplete",
+      "stars": 0,
+      "url": "https://github.com/dishhsish-del/OP3-PC-PORT-Incomplete"
     },
     "drakenabarion/virtualon_pc": {
       "description": "Cyber Troopers Virtual-On Masterpiece 1995-2001 (PS4) running natively on Linux. Built on the Uncharted and Bloodborne PC ports and the shadPS4 renderer. Bring your own dump.",
@@ -512,6 +544,14 @@
       "stars": 0,
       "url": "https://github.com/johnnygentoo/MaxiboostPort"
     },
+    "joseiglesiascala-source/totkrecomp-pkg": {
+      "description": "un recopilador estático de totk a ps4 con métodos de optimizacion poco combencionales pero muy eficaces ",
+      "found_at": "2026-11-15",
+      "pushed_at": "2026-11-15T03:16:29Z",
+      "repo": "joseiglesiascala-source/TotkRecomp-pkg",
+      "stars": 1,
+      "url": "https://github.com/joseiglesiascala-source/TotkRecomp-pkg"
+    },
     "jpsantosbembe/slop-of-time-remake-ps4-recomp": {
       "description": "Port nativo para PS4 do Ocarina of Time (Switch 2) por recompilação estática; 100% escrito por IA, sem nada do jogo.",
       "found_at": "2026-11-09",
@@ -559,6 +599,14 @@
       "repo": "lapothecary/bloodborne-pc-vulkan",
       "stars": 0,
       "url": "https://github.com/lapothecary/bloodborne-pc-vulkan"
+    },
+    "lilbigjp/sixfret": {
+      "description": "Six Fret: an unofficial native PC port of Guitar Hero Live (PS4). No game files included.",
+      "found_at": "2026-11-15",
+      "pushed_at": "2026-11-15T05:01:50Z",
+      "repo": "LilBigJP/SixFret",
+      "stars": 0,
+      "url": "https://github.com/LilBigJP/SixFret"
     },
     "lxnis/order1886-pc": {
       "description": "Experimental native Windows port of The Order: 1886 (PS4, CUSA00035 v01.02). Own game dump required, no game files included. GPL-2.0-or-later.",
@@ -928,6 +976,22 @@
       "stars": 12,
       "url": "https://github.com/tabnul/the-last-guardian-definitive"
     },
+    "thegh0sts/deadpool-ps4-port": {
+      "description": "Deadpool (PS4) native port for Windows — SacredFire/bbport runtime + shadPS4-derived Vulkan renderer",
+      "found_at": "2026-11-15",
+      "pushed_at": "2026-11-15T11:08:29Z",
+      "repo": "thegh0sts/Deadpool-PS4-PORT",
+      "stars": 2,
+      "url": "https://github.com/thegh0sts/Deadpool-PS4-PORT"
+    },
+    "thegh0sts/nhl-20-ps4-port": {
+      "description": "EA SPORTS NHL 20 (PS4) native port for Windows — SacredFire/bbport runtime + shadPS4-derived Vulkan renderer",
+      "found_at": "2026-11-15",
+      "pushed_at": "2026-11-15T00:25:17Z",
+      "repo": "thegh0sts/NHL-20-PS4-PORT",
+      "stars": 5,
+      "url": "https://github.com/thegh0sts/NHL-20-PS4-PORT"
+    },
     "thegh0sts/nhl-21-ps4-port": {
       "description": "EA SPORTS NHL 21 (PS4) native port for Windows — SacredFire/bbport runtime + shadPS4-derived Vulkan renderer",
       "found_at": "2026-11-11",
@@ -999,6 +1063,14 @@
       "repo": "VladZ97/fifa16_mac_port",
       "stars": 0,
       "url": "https://github.com/VladZ97/fifa16_mac_port"
+    },
+    "voronbuildstart/recomp4ps4": {
+      "description": "Build your own PS4 packages for Harvest Moon 64 and Mario Party 3 from your ROM dump (static recompilation). GTK3 GUI + CLI, one-click fresh-machine setup. GPLv3. No game content.",
+      "found_at": "2026-11-15",
+      "pushed_at": "2026-11-14T16:05:52Z",
+      "repo": "voronbuildstart/recomp4ps4",
+      "stars": 0,
+      "url": "https://github.com/voronbuildstart/recomp4ps4"
     },
     "wendersky/unicorn-overlord-ptbr": {
       "description": "Tradução PT-BR de Unicorn Overlord (recomp PC do PS4) — tradução de _Kiri_ adaptada para PC / Steam Deck",
