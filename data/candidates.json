@@ -208,6 +208,30 @@
       "stars": 0,
       "url": "https://github.com/crisprintsstuff/knack2-pc-port"
     },
+    "crownparkcomputing/akka-arrh-recomp": {
+      "description": "Akka Arrh PS4 runtime port for Linux x86-64 and Android ARM64, with Vulkan and selectable Turnip drivers. Game files required separately.",
+      "found_at": "2026-11-16",
+      "pushed_at": "2026-11-15T16:16:05Z",
+      "repo": "CrownParkComputing/akka-arrh-recomp",
+      "stars": 0,
+      "url": "https://github.com/CrownParkComputing/akka-arrh-recomp"
+    },
+    "crownparkcomputing/polybius-recomp": {
+      "description": "Polybius CUSA08328 Linux and Android native port using the shared PS4 runtime; original game data required.",
+      "found_at": "2026-11-16",
+      "pushed_at": "2026-11-15T16:55:21Z",
+      "repo": "CrownParkComputing/polybius-recomp",
+      "stars": 0,
+      "url": "https://github.com/CrownParkComputing/polybius-recomp"
+    },
+    "crownparkcomputing/raiden-fighters-recomp": {
+      "description": "Raiden Fighters Remix Collection CUSA53688 Linux and Android port using the shared PS4 runtime; original game data required.",
+      "found_at": "2026-11-16",
+      "pushed_at": "2026-11-16T07:08:50Z",
+      "repo": "CrownParkComputing/raiden-fighters-recomp",
+      "stars": 0,
+      "url": "https://github.com/CrownParkComputing/raiden-fighters-recomp"
+    },
     "crownparkcomputing/resogun-recomp": {
       "description": "Resogun (PS4) recompiled to PC - fork that installs straight from a .pkg and plays DLC-unlocker eboots",
       "found_at": "2026-11-15",
@@ -959,6 +983,14 @@
       "repo": "Skysbed/ps4-windows-games",
       "stars": 0,
       "url": "https://github.com/Skysbed/ps4-windows-games"
+    },
+    "sotcfan/sotc_pc": {
+      "description": "A native PC port of **Shadow of the Colossus** (the 2018 PS4 remake) in the \"bring your own game\" model: no emulator, and **no game files included**. You run your own, legally obtained copy of the game, dumped from your own console.",
+      "found_at": "2026-11-16",
+      "pushed_at": "2026-11-15T17:58:29Z",
+      "repo": "sotcfan/sotc_pc",
+      "stars": 0,
+      "url": "https://github.com/sotcfan/sotc_pc"
     },
     "szdtkk/yakuza-kiwami-ptbr-ps4": {
       "description": "Port simples da tradução PT-BR do Yakuza Kiwami (PC → PS4)",
