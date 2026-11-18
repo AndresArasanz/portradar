@@ -360,6 +360,22 @@
       "stars": 0,
       "url": "https://github.com/fate6/goldeneye-ps4"
     },
+    "fatzyk/nfsu2ps4": {
+      "description": " an unofficial native PS4 homebrew port of Need For Speed Underground 2 for the original Xbox ",
+      "found_at": "2026-11-18",
+      "pushed_at": "2026-11-18T10:59:29Z",
+      "repo": "fatzyk/nfsu2ps4",
+      "stars": 1,
+      "url": "https://github.com/fatzyk/nfsu2ps4"
+    },
+    "finalpantasy/everybodys-golf-ps4-pc-port": {
+      "description": "Everybody's Golf (Hot Shots Golf) PS4 port for Windows PC. Runs the original x86-64 game code on a PS4 HLE and Vulkan runtime. Work in progress, not playable yet. Goals: DLC unlocked, community-server online multiplayer, restored event gear. Bring your own dump.",
+      "found_at": "2026-11-18",
+      "pushed_at": "2026-11-18T04:11:38Z",
+      "repo": "finalpantasy/everybodys-golf-ps4-pc-port",
+      "stars": 0,
+      "url": "https://github.com/finalpantasy/everybodys-golf-ps4-pc-port"
+    },
     "fladnag86/driveclub-port-applesilicon": {
       "description": "Driveclub (PS4) native port running on Apple Silicon Macs under Rosetta 2 - fork of BlackLineInteractive/Driveclub-Port with GPU fixes and performance work",
       "found_at": "2026-10-18",
@@ -1016,6 +1032,14 @@
       "stars": 0,
       "url": "https://github.com/Skysbed/ps4-windows-games"
     },
+    "snufflyyy/opendream": {
+      "description": "A PC Port of Dreams PS4",
+      "found_at": "2026-11-18",
+      "pushed_at": "2026-11-17T22:29:18Z",
+      "repo": "snufflyyy/OpenDream",
+      "stars": 0,
+      "url": "https://github.com/snufflyyy/OpenDream"
+    },
     "sotcfan/sotc_pc": {
       "description": "A native PC port of **Shadow of the Colossus** (the 2018 PS4 remake) in the \"bring your own game\" model: no emulator, and **no game files included**. You run your own, legally obtained copy of the game, dumped from your own console.",
       "found_at": "2026-11-16",
@@ -1063,6 +1087,14 @@
       "repo": "thegh0sts/NHL-21-PS4-PORT",
       "stars": 0,
       "url": "https://github.com/thegh0sts/NHL-21-PS4-PORT"
+    },
+    "thegh0sts/nhl-24-ps4-port": {
+      "description": "NHL 24 (PS4) running natively on Windows 10/11. Windows fork of SacredFire, built on bbport and shadPS4. No game files included.",
+      "found_at": "2026-11-18",
+      "pushed_at": "2026-11-18T11:22:48Z",
+      "repo": "thegh0sts/NHL-24-PS4-PORT",
+      "stars": 2,
+      "url": "https://github.com/thegh0sts/NHL-24-PS4-PORT"
     },
     "thenikito/littlebigplanet-3---pc": {
       "description": "Port nativo e não oficial de LittleBigPlanet 3 (PS4) para Windows, em andamento. Nenhum arquivo do jogo incluído.",
