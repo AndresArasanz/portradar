@@ -592,6 +592,14 @@
       "stars": 1,
       "url": "https://github.com/ioritree/kyoei_toshi_pc"
     },
+    "iuliiagailova-cmyk/rncport": {
+      "description": "Experimental native-runtime port of Ratchet & Clank (2016, PS4) to Apple Silicon Macs (Rosetta 2 + Vulkan/KosmicKrisp/Metal). Bring your own dump.",
+      "found_at": "2026-11-20",
+      "pushed_at": "2026-11-20T08:23:22Z",
+      "repo": "iuliiagailova-cmyk/RnCPort",
+      "stars": 0,
+      "url": "https://github.com/iuliiagailova-cmyk/RnCPort"
+    },
     "johnnygentoo/gvport": {
       "description": "Native Linux port of GUNDAM VERSUS (PS4), built on the Bloodborne port. Bring your own legal dump; no game files here.",
       "found_at": "2026-10-23",
@@ -640,6 +648,14 @@
       "stars": 0,
       "url": "https://github.com/kitaaaaaa/ToaruMajutsuVirtualOn-recomp"
     },
+    "krixsan/j-stars-victory-vs-pc": {
+      "description": "J-Stars Victory VS+ PC — Standalone Windows x64 Vulkan Port, Launcher, FSR 3.1 FrameGen & Low-Latency Wrapper",
+      "found_at": "2026-11-20",
+      "pushed_at": "2026-11-20T01:43:07Z",
+      "repo": "krixsan/J-Stars-Victory-VS-PC",
+      "stars": 6,
+      "url": "https://github.com/krixsan/J-Stars-Victory-VS-PC"
+    },
     "ksofccs/aooni-ps4": {
       "description": "Native Ao Oni port for PlayStation 4. Featuring four language options, custom PS4 implementation and controller support.",
       "found_at": "2026-11-03",
@@ -687,6 +703,14 @@
       "repo": "MafraLP/lbp3-native-windows",
       "stars": 0,
       "url": "https://github.com/MafraLP/lbp3-native-windows"
+    },
+    "makkary-rov/pes17-ps4-recomp": {
+      "description": "A recomp of PES 17 PS4 edition for Windows PC derived from the bbport recomp for Windows.",
+      "found_at": "2026-11-20",
+      "pushed_at": "2026-11-20T12:27:16Z",
+      "repo": "makkary-rov/pes17-ps4-recomp",
+      "stars": 2,
+      "url": "https://github.com/makkary-rov/pes17-ps4-recomp"
     },
     "manineteasylight/mnel-project-unleashed": {
       "description": "MNEL Project Unleashed is a fan-made port of Sonic Unleashed (Xbox 360) for Jailbroken PS4. Fully recompiled, unofficial, and not for retail consoles. Based on hedge-dev's original recomp. Developed by Mani Mokhtarzadeh. Work in progress – no source or PKG files yet. Future PS5 support possible. Unauthorized copying is prohibited.",
