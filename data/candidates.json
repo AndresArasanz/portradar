@@ -1072,6 +1072,14 @@
       "stars": 0,
       "url": "https://github.com/snufflyyy/OpenDream"
     },
+    "solvenusloop/resp-infamous2-ios": {
+      "description": "Experimental native iOS port of inFAMOUS 2 (PS3), powered by ARM64 static recompilation and Metal.",
+      "found_at": "2026-11-23",
+      "pushed_at": "2026-11-23T09:22:08Z",
+      "repo": "Solvenusloop/resp-infamous2-ios",
+      "stars": 0,
+      "url": "https://github.com/Solvenusloop/resp-infamous2-ios"
+    },
     "sotcfan/sotc_pc": {
       "description": "A native PC port of **Shadow of the Colossus** (the 2018 PS4 remake) in the \"bring your own game\" model: no emulator, and **no game files included**. You run your own, legally obtained copy of the game, dumped from your own console.",
       "found_at": "2026-11-16",
@@ -1255,6 +1263,14 @@
       "repo": "YoavAharonOfficial/Recomp-to-PS4-FPKG",
       "stars": 0,
       "url": "https://github.com/YoavAharonOfficial/Recomp-to-PS4-FPKG"
+    },
+    "zippingrocks/minecraft-lcerecomp---ps4-edition-1.95": {
+      "description": "Static recompilation of the final retail Minecraft: Legacy Console Edition release for modern platforms.",
+      "found_at": "2026-11-23",
+      "pushed_at": "2026-11-23T03:05:51Z",
+      "repo": "Zippingrocks/Minecraft-LCERecomp---PS4-Edition-1.95",
+      "stars": 0,
+      "url": "https://github.com/Zippingrocks/Minecraft-LCERecomp---PS4-Edition-1.95"
     },
     "ziran123lst/divaft_android": {
       "description": "Hatsune Miku Project DIVA Future Tone DX (PS4) native Android/ARM64 port - original implementation",
