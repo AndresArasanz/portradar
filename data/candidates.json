@@ -392,6 +392,14 @@
       "stars": 0,
       "url": "https://github.com/fladnaG86/Driveclub-Port-AppleSilicon"
     },
+    "flugeru/orbisextract": {
+      "description": "Cross-platform PS4 PKG extractor for Windows, Linux, and Android, built with C#/.NET and Avalonia.  Extrator de PKG de PS4 para Windows, Linux e Android, desenvolvido em C#/.NET com Avalonia.",
+      "found_at": "2026-11-24",
+      "pushed_at": "2026-11-24T03:59:17Z",
+      "repo": "flugeru/OrbisExtract",
+      "stars": 0,
+      "url": "https://github.com/flugeru/OrbisExtract"
+    },
     "francescograzioso/gr-port": {
       "description": "Gravity Rush Remastered (PS4) running natively on Windows: Orbis HLE + GCN to SPIR-V/Vulkan translation layer",
       "found_at": "2026-10-18",
