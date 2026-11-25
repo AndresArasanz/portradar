@@ -32,6 +32,14 @@
       "stars": 0,
       "url": "https://github.com/ACGNnsj/summon-night-6-pc"
     },
+    "ajncsystem/shadowofthecolossus-android": {
+      "description": "Port do Shadow of the Colossus (PS4) para Android ARM64 (AYN Odin 3), baseado no SotC-PC: FEXCore, shadPS4 e Turnip próprio",
+      "found_at": "2026-11-25",
+      "pushed_at": "2026-11-25T04:41:57Z",
+      "repo": "AjncSystem/ShadowOfTheColossus-Android",
+      "stars": 0,
+      "url": "https://github.com/AjncSystem/ShadowOfTheColossus-Android"
+    },
     "alechurri/2ship2harkinian-ps4": {
       "description": "Majora's Mask (2 Ship 2 Harkinian 5.0.1) native port for jailbroken PS4 — build scripts, patches, docs and releases",
       "found_at": "2026-10-18",
@@ -192,6 +200,14 @@
       "stars": 2,
       "url": "https://github.com/ChanseyIsTheBest/peggle2-nx"
     },
+    "chavez46/shadps4-emulator-ps4-pc-portable-bloodborne-60fps-pl": {
+      "description": "Shadps4 Emulator Ps4 PC Portable Bloodborne 60fps Pl [2026] — Standalone Windows 10/11 (x64) Release, Setup & Config",
+      "found_at": "2026-11-25",
+      "pushed_at": "2026-11-25T05:40:17Z",
+      "repo": "Chavez46/shadps4-emulator-ps4-pc-portable-bloodborne-60fps-pl",
+      "stars": 26,
+      "url": "https://github.com/Chavez46/shadps4-emulator-ps4-pc-portable-bloodborne-60fps-pl"
+    },
     "claudiogodoi/ufc-4-ps4-port-linux": {
       "description": "EA SPORTS UFC 4 (PS4) native port for Linux, built on the UFC 3 native port (GNSB / SacredFire / bbport / shadPS4). Experimental. No game files included.",
       "found_at": "2026-10-20",
@@ -280,6 +296,14 @@
       "stars": 1,
       "url": "https://github.com/darkuni/super-stardust-ultra-recomp"
     },
+    "darschnid479/codolonline": {
+      "description": "Project Dragon — Native PlayStation 4 (OrbisOS) port of Call of Duty Online 1.1.1.13 (clean-room C++20 engine, FastFile v334, OpenOrbis).",
+      "found_at": "2026-11-25",
+      "pushed_at": "2026-11-25T15:28:57Z",
+      "repo": "Darschnid479/codolonline",
+      "stars": 0,
+      "url": "https://github.com/Darschnid479/codolonline"
+    },
     "datemasanaga/driveclub-port-applesilicon-zh-cn": {
       "description": "Driveclub (PS4, Simplified Chinese) native port running on Apple Silicon Macs under Rosetta 2 - fork of BlackLineInteractive/Driveclub-Port with GPU fixes and performance work",
       "found_at": "2026-10-24",
@@ -359,6 +383,14 @@
       "repo": "EmiiBytee/np2kai-ps4",
       "stars": 5,
       "url": "https://github.com/EmiiBytee/np2kai-ps4"
+    },
+    "enderarrieta88/uncharted-port-enhanced": {
+      "description": "Enhanced build of the Uncharted: The Nathan Drake Collection PC port (no game files)",
+      "found_at": "2026-11-25",
+      "pushed_at": "2026-11-25T01:58:03Z",
+      "repo": "EnderArrieta88/Uncharted-Port-Enhanced",
+      "stars": 1,
+      "url": "https://github.com/EnderArrieta88/Uncharted-Port-Enhanced"
     },
     "fate6/goldeneye-ps4": {
       "description": "GoldenEye 007 PC port for PS4 homebrew (Vulkan on RADV, native 4K on PS4 Pro). Bring your own ROM.",
@@ -791,6 +823,14 @@
       "repo": "neiove/Sm64coopdx-ps4",
       "stars": 0,
       "url": "https://github.com/neiove/Sm64coopdx-ps4"
+    },
+    "neiove/sonic-4-recompiled-ps4": {
+      "description": "A custom built recompilation of sonic unleashed using xenonreconp",
+      "found_at": "2026-11-25",
+      "pushed_at": "2026-11-24T22:50:05Z",
+      "repo": "neiove/Sonic-4-Recompiled-ps4",
+      "stars": 0,
+      "url": "https://github.com/neiove/Sonic-4-Recompiled-ps4"
     },
     "neiove/sonic-unleashed-recompiled-ps4": {
       "description": "",
