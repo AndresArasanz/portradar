@@ -656,6 +656,14 @@
       "stars": 0,
       "url": "https://github.com/johnnygentoo/MaxiboostPort"
     },
+    "jolly-baron/jb-ps4recomp": {
+      "description": "PS4 Recompilator",
+      "found_at": "2026-11-26",
+      "pushed_at": "2026-11-26T06:28:18Z",
+      "repo": "Jolly-Baron/JB-PS4Recomp",
+      "stars": 0,
+      "url": "https://github.com/Jolly-Baron/JB-PS4Recomp"
+    },
     "joseiglesiascala-source/totkrecomp-pkg": {
       "description": "un recopilador estático de totk a ps4 con métodos de optimizacion poco combencionales pero muy eficaces ",
       "found_at": "2026-11-15",
