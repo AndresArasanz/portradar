@@ -320,6 +320,14 @@
       "stars": 0,
       "url": "https://github.com/DavyBirth/kyoei-toshi"
     },
+    "dhverso/star-ocean-5-ps4-ptbr": {
+      "description": "Tradução PT-BR de fã do Star Ocean: Integrity and Faithlessness (recompilação PS4RT no PC, e PS4/PS5 versão europeia CUSA03219). Patch xdelta com instalador para Windows e Linux.",
+      "found_at": "2026-11-27",
+      "pushed_at": "2026-11-27T02:39:53Z",
+      "repo": "dhverso/star-ocean-5-ps4-ptbr",
+      "stars": 1,
+      "url": "https://github.com/dhverso/star-ocean-5-ps4-ptbr"
+    },
     "dishhsish-del/op3-pc-port-incomplete": {
       "description": "One Piece Pirate Warriors 3 PS4→PC Native Port — D3D11 backend, VEH syscall interception, ELF loader with PS4 library reimplementations. Current blocker: PLTGOT imports unresolved (0/52) — fix is rewriting ResolveModuleImports() to use import order from op3_imports_mapped.json. See README.md for more info",
       "found_at": "2026-11-15",
@@ -407,6 +415,14 @@
       "repo": "fatzyk/nfsu2ps4",
       "stars": 1,
       "url": "https://github.com/fatzyk/nfsu2ps4"
+    },
+    "felipebasurto/caliza": {
+      "description": "Native PlayStation 2 emulator for PS4, ported from PCSX2.",
+      "found_at": "2026-11-27",
+      "pushed_at": "2026-11-27T14:48:11Z",
+      "repo": "felipebasurto/caliza",
+      "stars": 1,
+      "url": "https://github.com/felipebasurto/caliza"
     },
     "finalpantasy/everybodys-golf-ps4-pc-port": {
       "description": "Everybody's Golf (Hot Shots Golf) PS4 port for Windows PC. Runs the original x86-64 game code on a PS4 HLE and Vulkan runtime. Work in progress, not playable yet. Goals: DLC unlocked, community-server online multiplayer, restored event gear. Bring your own dump.",
@@ -864,6 +880,14 @@
       "stars": 0,
       "url": "https://github.com/NichlasEk/Descent-PS4"
     },
+    "nichlasek/orbisrecompprovisioner": {
+      "description": "Reusable Orbis OS (PS4, OpenOrbis/GoldHEN) first-run game data provisioner with LAN HTTP UI, 60 FPS cracktro UI + QR code, ProTracker .mod audio, XISO/ZIP extraction, and minimal fPKG + GoldHEN RPI support",
+      "found_at": "2026-11-27",
+      "pushed_at": "2026-11-27T14:23:29Z",
+      "repo": "NichlasEk/OrbisRecompProvisioner",
+      "stars": 0,
+      "url": "https://github.com/NichlasEk/OrbisRecompProvisioner"
+    },
     "nichlasek/psydoom-ps4": {
       "description": "Native OpenOrbis PS4 port of PsyDoom with source-built OpenGNM/PSBC Vulkan rendering. Physical PS4 validation pending.",
       "found_at": "2026-11-11",
@@ -1191,6 +1215,14 @@
       "repo": "thegh0sts/NHL-24-PS4-PORT",
       "stars": 2,
       "url": "https://github.com/thegh0sts/NHL-24-PS4-PORT"
+    },
+    "thejetsetlife/eidos-ps4": {
+      "description": "PS4 native port of Project Holon's Eidos engine (platform/packaging + LP64)",
+      "found_at": "2026-11-27",
+      "pushed_at": "2026-11-27T13:48:19Z",
+      "repo": "theJetsetlife/eidos-ps4",
+      "stars": 0,
+      "url": "https://github.com/theJetsetlife/eidos-ps4"
     },
     "thenikito/littlebigplanet-3---pc": {
       "description": "Port nativo e não oficial de LittleBigPlanet 3 (PS4) para Windows, em andamento. Nenhum arquivo do jogo incluído.",
