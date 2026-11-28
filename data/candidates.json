@@ -880,6 +880,14 @@
       "stars": 0,
       "url": "https://github.com/NichlasEk/Descent-PS4"
     },
+    "nichlasek/opentyrian_ps4": {
+      "description": "Native OpenOrbis PS4 port of the vertical shooter OpenTyrian",
+      "found_at": "2026-11-28",
+      "pushed_at": "2026-11-28T11:59:12Z",
+      "repo": "NichlasEk/OpenTyrian_PS4",
+      "stars": 0,
+      "url": "https://github.com/NichlasEk/OpenTyrian_PS4"
+    },
     "nichlasek/orbisrecompprovisioner": {
       "description": "Reusable Orbis OS (PS4, OpenOrbis/GoldHEN) first-run game data provisioner with LAN HTTP UI, 60 FPS cracktro UI + QR code, ProTracker .mod audio, XISO/ZIP extraction, and minimal fPKG + GoldHEN RPI support",
       "found_at": "2026-11-27",
@@ -1007,6 +1015,14 @@
       "repo": "quovix/port-RMGE01-ps4-from-wii",
       "stars": 0,
       "url": "https://github.com/quovix/port-RMGE01-ps4-from-wii"
+    },
+    "r1y3n/nina-ps4-port": {
+      "description": "PS4-targeted static recompilation of Nina Agent Chronicles: rebuild tooling, shims, renderer, and game-DLL patches.",
+      "found_at": "2026-11-28",
+      "pushed_at": "2026-11-27T18:59:41Z",
+      "repo": "R1y3n/nina-ps4-port",
+      "stars": 0,
+      "url": "https://github.com/R1y3n/nina-ps4-port"
     },
     "rainstyle/xbox-icon-swap": {
       "description": "Xbox button icons instead of PlayStation in PS4->PC ports (tested: EA SPORTS UFC 3 native port)",
@@ -1167,6 +1183,14 @@
       "repo": "sotcfan/sotc_pc",
       "stars": 0,
       "url": "https://github.com/sotcfan/sotc_pc"
+    },
+    "sumadeumas/pso-plus-recomp": {
+      "description": "Phantasy Star Online Episode I & II Plus (PSO) for PS4 and PC: a native port by static recompilation of the GameCube game. PS4 homebrew (GoldHEN) and Windows.",
+      "found_at": "2026-11-28",
+      "pushed_at": "2026-11-27T21:50:04Z",
+      "repo": "sumadeumas/pso-plus-recomp",
+      "stars": 3,
+      "url": "https://github.com/sumadeumas/pso-plus-recomp"
     },
     "szdtkk/yakuza-kiwami-ptbr-ps4": {
       "description": "Port simples da tradução PT-BR do Yakuza Kiwami (PC → PS4)",
